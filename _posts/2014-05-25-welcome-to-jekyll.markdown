@@ -12,13 +12,29 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight javascript %}
+/**
+ * Bind custom event `overflowed`.
+ * Fired when a element within the ribbon is overflowed.
+ */
+$(document).on('overflowed.kira.ribbon', function() {
+	console.warn('overflowed!');
+	$('#mm_mainTabContent').find('.mm_ribbonCloneOpener').show();
+	//$ribbonCloneWrapper.attr('data-visible', 'true');
+});
 {% endhighlight %}
+
+```javascript
+/**
+ * Bind custom event `overflowed`.
+ * Fired when a element within the ribbon is overflowed.
+ */
+$(document).on('overflowed.kira.ribbon', function() {
+	console.warn('overflowed!');
+	$('#mm_mainTabContent').find('.mm_ribbonCloneOpener').show();
+	//$ribbonCloneWrapper.attr('data-visible', 'true');
+});
+```
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 
