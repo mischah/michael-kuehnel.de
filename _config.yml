@@ -1,12 +1,13 @@
 # Site settings
 title: Personal blog of Michael Kühnel
 email: mail@michael-kuehnel.de
-description: "Michael Kühnel, frontend developer from Kassel blogging about Markup, CSS, JavaScript and related stuff. English/German."
+description: Michael Kühnel, frontend developer from Kassel blogging about Markup, CSS, JavaScript and related stuff. English/German.
 baseurl: ""
-url: "http://michael-kuehnel.de"
+url: "http://michael-kuehnel.de" # the base hostname & protocol for your site
+twitter_username: mkuehnel
+github_username: mischah
 
 # Build settings
 markdown: kramdown
 kramdown:
   input: GFM
-permalink: pretty
