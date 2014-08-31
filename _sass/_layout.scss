@@ -96,10 +96,24 @@
 	margin-bottom: $spacing-unit / 2;
 }
 
+.footer-link {
+	color: $grey-color;
+	text-decoration: underline;
+	&:hover {
+		color: $brand-color;
+	}
+}
+
+
+
 .contact-list,
 .social-media-list {
 	list-style: none;
 	margin-left: 0;
+}
+
+.contact-list {
+	// text-align: right;
 }
 
 .contact-list li {
@@ -126,7 +140,8 @@
             fill: $brand-color;
         }
 	}
-	.icon--flattr > svg {
+	.icon--flattr > svg,
+	.icon--feed > svg {
 		height: 22px;
 		width: 22px;
 	}
@@ -151,18 +166,18 @@
 }
 
 .footer-col-1 {
-	width: -webkit-calc(19% - (#{$spacing-unit} / 2));
-	width:         calc(19% - (#{$spacing-unit} / 2));
+	width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+	width:         calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-	width: -webkit-calc(36% - (#{$spacing-unit} / 2));
-	width:         calc(36% - (#{$spacing-unit} / 2));
+	width: -webkit-calc(55% - (#{$spacing-unit} / 2));
+	width:         calc(55% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-	width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-	width:         calc(45% - (#{$spacing-unit} / 2));
+	width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+	width:         calc(25% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
