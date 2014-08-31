@@ -5,8 +5,8 @@ permalink: /about/
 menu: true
 ---
 
-<div style="overflow:hidden; margin-bottom: 15px;">
-    <img src="/assets/img/me.jpeg" alt="Me" style="float: left; margin-right: 20px;">
+<div class="float-container">
+    <img src="/assets/img/me.jpeg" alt="Me" class="float-left">
     <div>
         <h2>It’s me, </h2>
         <p>

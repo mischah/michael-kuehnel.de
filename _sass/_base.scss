@@ -13,6 +13,7 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+
 body {
 	font-family: $base-font-family;
 	font-size: $base-font-size;
@@ -125,8 +126,8 @@ blockquote {
  * Wrapper
  */
 .wrapper {
-	max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
-	max-width:         calc(800px - (#{$spacing-unit} * 2));
+	// max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
+	// max-width:         calc(800px - (#{$spacing-unit} * 2));
 	margin-right: auto;
 	margin-left: auto;
 	padding-right: $spacing-unit;
@@ -172,4 +173,17 @@ blockquote {
 			fill: $grey-color;
 		}
 	}
+}
+
+
+/**
+ * FLoats
+ */
+.float-container {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.float-left {
+	float: left;
+	margin-right: 20px;
 }
