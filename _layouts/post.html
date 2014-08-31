@@ -5,11 +5,16 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="post-meta">
+    	{{ page.date | date: "%B %-d, %Y" }}{% if page.author %} – {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+    </p>
+
   </header>
 
   <article class="post-content">
     {{ content }}
   </article>
+
+	<script id='fbjp66d'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=mischah&button=compact&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbjp66d');</script>
 
 </div>
