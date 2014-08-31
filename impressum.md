@@ -1,11 +1,11 @@
 ---
 layout: page
-#title: Impressum
+title: Impressum
 permalink: /impressum/
 #excerpt: Null
 ---
 
-<h1 class="post-title">Impressum</h1>
+
 
 ## Angaben gemäß § 5 TMG
 
