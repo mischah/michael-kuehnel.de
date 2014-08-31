@@ -1,8 +1,11 @@
 // Overriding prism theme
 
 /* Code blocks */
-pre[class*="language-"] {
+pre[class*="language-"],
+:not(pre) > code[class*="language-"],
+:not(pre) > code {
 	border-radius: 0;
-	border: 1px solid hsl(0, 0%, 33%); /* #282A2B */
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	box-shadow: none;
 	font-size: 14px;
 }

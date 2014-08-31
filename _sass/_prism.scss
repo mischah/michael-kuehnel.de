@@ -5,7 +5,8 @@
  * @author Remy Bach
  */
 code[class*="language-"],
-pre[class*="language-"] {
+pre[class*="language-"],
+code {
 	color: white;
 	direction: ltr;
 	font-family: Consolas, Monaco, 'Andale Mono', monospace;
@@ -27,7 +28,8 @@ pre[class*="language-"] {
 }
 
 pre[class*="language-"],
-:not(pre) > code[class*="language-"] {
+:not(pre) > code[class*="language-"],
+:not(pre) > code {
 	background: hsl(0, 0%, 8%); /* #141414 */
 }
 
@@ -53,19 +55,22 @@ pre[class*="language-"]::selection {
 
 /* Text Selection colour */
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
-code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection,
+code::-moz-selection, code ::-moz-selection {
 	text-shadow: none;
 	background: hsla(0, 0%, 93%, 0.15); /* #EDEDED */
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
-code[class*="language-"]::selection, code[class*="language-"] ::selection {
+code[class*="language-"]::selection, code[class*="language-"] ::selection,
+code::selection, code ::selection {
 	text-shadow: none;
 	background: hsla(0, 0%, 93%, 0.15); /* #EDEDED */
 }
 
 /* Inline code */
-:not(pre) > code[class*="language-"] {
+:not(pre) > code[class*="language-"],
+:not(pre) > code {
 	border-radius: .3em;
 	border: .13em solid hsl(0, 0%, 33%); /* #545454 */
 	box-shadow: 1px 1px .3em -.1em black inset;
