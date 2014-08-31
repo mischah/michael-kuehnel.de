@@ -1,11 +1,12 @@
 # Site settings
-title: Personal blog of Michael Kühnel
+title: Michael Kühnel
 email: mail@michael-kuehnel.de
-description: Michael Kühnel, Front-End Developer from Germany – blogging about Markup, CSS, JavaScript and related stuff. English/German.
+description: > # this means to ignore newlines until "baseurl:"
+  Michael Kühnel, Front-End Developer from Kassel, Germany – blogging about
+  Markup, CSS, JavaScript and related stuff. Sometimes in English and sometimes
+  in German.
 baseurl: ""
 url: "http://michael-kuehnel.de"
-twitter_username: mkuehnel
-github_username: mischah
 
 # Build settings
 markdown: kramdown
