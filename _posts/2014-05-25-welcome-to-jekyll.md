@@ -3,8 +3,8 @@ layout: post
 lang: en_GB
 title:  "Welcome to Jekyll!"
 date:   2014-05-25 21:53:08
-categories: jekyll update
-tags: jekyll blogging
+category: Jekyll
+tags: Blogging
 excerpt: First post is about checking out jekyll.
 ---
 
