@@ -1,3 +1,19 @@
+body {
+	max-width: 768px;
+	margin: 0 auto;
+	&:before {
+		content: '';
+		display: block;
+		height: 5px;
+		width: 100%;
+		background: $grey-color-dark;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 9;
+	}
+}
+
 /**
  * Site header
  */

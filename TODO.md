@@ -2,7 +2,6 @@
 
 ## Platform
 
-- max-width for wrapper or body or `.wrapper`
 - Add _drafts
 - Add comments
 - Integrate gists?
