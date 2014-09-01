@@ -5,3 +5,4 @@ Not published yet.
 
 - Running on Jekyll
   - jekyll serve --watch
+  - jekyll serve --watch --drafts

@@ -2,7 +2,6 @@
 
 ## Platform
 
-- Add _drafts
 - Add comments
 - Integrate gists?
 - Grunt Workflow
