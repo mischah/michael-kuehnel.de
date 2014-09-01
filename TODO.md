@@ -3,7 +3,6 @@
 ## Platform
 
 - webfont?
-- Analytics
 - Add comments
 - Integrate gists?
 - Pagination
