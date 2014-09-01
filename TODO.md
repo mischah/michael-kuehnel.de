@@ -4,7 +4,7 @@
 
 - webfont?
 - Add comments
-- Integrate gists?
+- Open Graph metadata <http://ogp.me/>
 - Pagination
 - Related posts
 - Grunt Workflow
