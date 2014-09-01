@@ -1,5 +1,7 @@
 Sources and content of my personal blog
 ====
 
-- Running on Jekyll.
-- Not published yet.
+Not published yet.
+
+- Running on Jekyll
+  - jekyll serve --watch
