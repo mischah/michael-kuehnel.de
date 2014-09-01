@@ -157,19 +157,27 @@ body {
 		height: 24px;
 		width: 24px;
 		margin-right: 5px;
-		path {
-            fill: $brand-color;
-        }
+	}
+	.icon--twitter {
+		> svg path { fill: #55acee; }
+		&:hover > svg path { fill: #0084b4; }
+	}
+	.icon--github {
+		> svg path { fill: #333333; }
+		&:hover > svg path { fill: #4183c4; }
+	}
+	.icon--flattr {
+		> svg path { fill: #90ba5d; }
+		&:hover > svg path { fill: #f29224; }
+	}
+	.icon--feed {
+		> svg path { fill: #f39c11; }
+		&:hover > svg path { fill: #f29224; }
 	}
 	.icon--flattr > svg,
 	.icon--feed > svg {
 		height: 22px;
 		width: 22px;
-	}
-	a:hover {
-		.icon > svg path {
-			fill: lighten($brand-color, 10%);
-		}
 	}
 }
 
