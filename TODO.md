@@ -2,8 +2,11 @@
 
 ## Platform
 
+- webfont?
 - Add comments
 - Integrate gists?
+- Pagination
+- Related posts
 - Grunt Workflow
 
 # Posts
