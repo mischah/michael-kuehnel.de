@@ -6,7 +6,7 @@ menu: true
 ---
 
 <div class="float-container">
-    <img src="/assets/img/me.jpeg" alt="Me" class="float-left">
+    <img src="/assets/img/michael-kuehnel.de.jpg" alt="Foto: Michael Kühnel" class="float-left">
     <div>
         <h2>Hi, it’s me.</h2>
         <p>
@@ -27,8 +27,7 @@ menu: true
 
 Just hit me via [email](mailto:mail@michael-kuehnel.de) – Fingerprint: 3A7C284F814989C2 – [GPG Public Key](/files/3A7C284F814989C2.asc)
 
-You can catch me, my sourcecode, my gists, my presentations, my bookmarks, my articles and my photos on the following sites and services:  
-
+You can catch me, my sourcecode, my gists, my presentations, my bookmarks, my articles and my photos on the following sites and services:   
 [Twitter](http://twitter.com/mkuehnel"),
 [GitHub](https://github.com/mischah"),
 [Flickr](http://flickr.com/photos/mischah/"),
