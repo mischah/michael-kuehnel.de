@@ -268,7 +268,8 @@ body {
 		margin-right: 5px;
 	}
 }
-p.post-meta {
+p.post-meta,
+h2.post-meta {
 	margin-bottom: 0;
 }
 
@@ -286,7 +287,7 @@ p.post-meta {
  * Posts
  */
 .post-header {
-	margin-bottom: $spacing-unit;
+	// margin-bottom: $spacing-unit;
 }
 
 .post-title {
