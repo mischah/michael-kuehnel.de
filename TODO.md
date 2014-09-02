@@ -2,6 +2,7 @@
 
 ## Platform
 
+- Tags
 - Open Graph metadata <http://ogp.me/>
 - Pagination
 - Related posts
@@ -9,10 +10,6 @@
 
 # Posts
 
-- Welcome
-  - Why
-  - Where art leads to
-  - Technical aspects
 - Setting up Jekyll
   - Install 
   - Menu
