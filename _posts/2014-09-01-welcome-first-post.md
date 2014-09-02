@@ -9,11 +9,11 @@ excerpt: I’m starting blogging for the very first time on my own blog. This is
 disqusIdentifier: 2014-09-01welcome-first-post
 ---
 
-**It’s happening!**  
+**It’s happening!**
 I’m starting blogging for the very first time on my own blog. This is something I had in my mind for ages. But I never managed to take the time setting up a blog (besides the legendary but long gone [whuddupbro.com](http://whuddupbro.com) … but that’s a whole different story).
 
 I started working on this blog in may for a couple of hours … zzzZZ ; ]  
-But a few days ago I released version 1.0.0 of a little open source project called [Bootstrap Kickstart](https://github.com/micromata/bootstrap-kickstart) and I felt the strong need to let the world know about it (a Blog post will follow very soon). So I continued working on the blog and it is ready to be published **NOW**.
+But a few days ago I released version 1.0.0 of a little open source project called [Bootstrap Kickstart](https://github.com/micromata/bootstrap-kickstart)  :octocat: and I felt the strong need to let the world know about it (a Blog post will follow very soon). So I continued working on the blog and it is ready to be published **NOW**.
 
 ## Why?
 I just love to share knowlege. Period.
