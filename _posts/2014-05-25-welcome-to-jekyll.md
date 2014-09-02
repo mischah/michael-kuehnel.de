@@ -6,6 +6,7 @@ date:   2014-05-25 21:53:08
 category: Jekyll
 tags: Blogging
 excerpt: First post is about checking out jekyll.
+disqusIdentifier: welcome-foo
 ---
 
 You'll find this post in your <code class="language-bash">_posts</code> `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
