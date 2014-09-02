@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en_GB
-title:  "„Welcome“ aka „This is a first post on my blog“"
+title:  "„Welcome“ aka „This is the first post on my blog“"
 date:   2014-09-01 21:53:08
 category: blogging
 tags: "blogging, jekyll"
