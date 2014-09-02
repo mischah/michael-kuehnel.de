@@ -241,6 +241,7 @@ body {
  */
 .page-content {
 	padding: $spacing-unit 0;
+	padding-bottom: 10px;
 }
 
 .page-heading {
@@ -248,11 +249,13 @@ body {
 }
 
 .post-list {
-	margin-left: 0;
+	margin: 0;
 	list-style: none;
 
 	> li {
-		margin-bottom: $spacing-unit;
+		margin-bottom: $spacing-unit * 0.9;
+		margin-top: $spacing-unit / 2;
+		padding-bottom: $spacing-unit / 2;
 		border-bottom: 1px solid $grey-color-light;
 	}
 	h2 {
@@ -307,9 +310,15 @@ h2.post-meta {
 
 	h2 {
 		font-size: 32px;
-
 		@include media-query($on-laptop) {
 			font-size: 28px;
+		}
+	}
+
+	.float-container h2:first-child {
+		margin-top: 0;
+		@include media-query($on-phone) {
+			margin-top: $spacing-unit;
 		}
 	}
 
@@ -328,6 +337,7 @@ h2.post-meta {
 			font-size: 18px;
 		}
 	}
+
 }
 
 #disqus_thread {

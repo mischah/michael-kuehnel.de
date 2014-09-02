@@ -47,6 +47,16 @@ img {
 	vertical-align: middle;
 }
 
+/**
+ * Rulers
+ */
+hr {
+	height: 1px;
+    background: $grey-color-light;
+    border: none;
+    margin-bottom: $spacing-unit / 2;
+    width: 100%;
+}
 
 
 /**
@@ -192,4 +202,8 @@ blockquote {
 .float-left {
 	float: left;
 	margin-right: 20px;
+	@include media-query($on-phone) {
+		float: none;
+		margin-right: 0;
+	}
 }
