@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Impressum
-permalink: /impressum/
+permalink: /impressum.html
 #excerpt: Null
 ---
 

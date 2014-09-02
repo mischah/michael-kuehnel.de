@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Datenschutz
-permalink: /datenschutz/
+permalink: /datenschutz.html
 #excerpt: Null
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gists
-permalink: /gists/
+permalink: /gists.html
 menu: false
 ---
 
