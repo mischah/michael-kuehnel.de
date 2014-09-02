@@ -26,7 +26,7 @@ But I don’t plan to make those link list articles in the style of „Hottest l
 Anyway, my personal recommendation if you like to get the finest selection of weekly links right into your inbox is the [Web Development Reading List](http://wdrl.info/) gathered by [@helloanselm](http://helloanselm.com/).
 
 ## Technical aspects
-First things first: I didn’t want to use a blogging system which has potential vulnerabilities („Hey WordPress“) so I could either use the legendary file based CMS [Kirby](http://getkirby.com/) (markdown #ftw) which will be released in Version 2 in September/October 2014 or make use of a static site generator.
+First things first: I didn’t want to use a blogging system with potential vulnerabilities („Hey WordPress“). So I could either use the legendary file based CMS [Kirby](http://getkirby.com/) (markdown #ftw) which will be released in Version 2 in September/October 2014 or make use of a static site generator.
 
 Using Kirby meant that I still have to use a server side language (PHP in that case). So I decided to have a look at those ubiquitous static site generators.
 
