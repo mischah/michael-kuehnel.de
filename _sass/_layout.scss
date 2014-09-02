@@ -257,6 +257,7 @@ body {
 	}
 	h2 {
 		margin-bottom: $spacing-unit / 14;
+		margin-top: 0;
 	}
 }
 
@@ -270,7 +271,8 @@ body {
 }
 p.post-meta,
 h2.post-meta {
-	margin-bottom: 0;
+	line-height: $base-line-height;
+	margin: 0;
 }
 
 .post-link {
