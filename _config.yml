@@ -12,3 +12,5 @@ url: "http://michael-kuehnel.de"
 markdown: kramdown
 kramdown:
   input: GFM
+gems:
+  - jemoji
