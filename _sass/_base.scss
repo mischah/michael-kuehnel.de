@@ -202,6 +202,9 @@ blockquote {
 .float-left {
 	float: left;
 	margin-right: 20px;
+}
+
+.post-content .float-left {
 	@include media-query($on-phone) {
 		float: none;
 		margin-right: 0;
