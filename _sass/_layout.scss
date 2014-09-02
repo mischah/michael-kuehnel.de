@@ -255,6 +255,9 @@ body {
 		margin-bottom: $spacing-unit;
 		border-bottom: 1px solid $grey-color-light;
 	}
+	h2 {
+		margin-bottom: $spacing-unit / 14;
+	}
 }
 
 .post-meta {
@@ -269,11 +272,10 @@ p.post-meta {
 	margin-bottom: 0;
 }
 
-
-
 .post-link {
 	display: block;
 	font-size: 24px;
+	font-weight: bold;
 }
 
 

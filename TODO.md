@@ -2,7 +2,6 @@
 
 ## Platform
 
-- webfont?
 - Add comments
 - Open Graph metadata <http://ogp.me/>
 - Pagination
