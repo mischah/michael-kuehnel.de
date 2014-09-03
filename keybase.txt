@@ -1,0 +1,83 @@
+==================================================================
+https://keybase.io/mischah
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://michael-kuehnel.de
+  * I am mischah (https://keybase.io/mischah) on keybase.
+  * I have a public key with fingerprint 28C8 7661 0A17 2ED1 BCFD  6EC5 3A7C 284F 8149 89C2
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.5.1"
+        },
+        "key": {
+            "fingerprint": "28c876610a172ed1bcfd6ec53a7c284f814989c2",
+            "host": "keybase.io",
+            "key_id": "3A7C284F814989C2",
+            "uid": "4d8421c2686b858b8e24bf0dd746ae00",
+            "username": "mischah"
+        },
+        "merkle_root": {
+            "ctime": 1409723043,
+            "hash": "da56253fff0b7a52fb2a32d3ec4f9dff8cc9204711e234e11ed28cefcc838a2beb669e777e692c1e7d767ecf34ed76d8202510de91caaf19f4521f6007c74eaf",
+            "seqno": 46182
+        },
+        "service": {
+            "hostname": "michael-kuehnel.de",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1409723241,
+    "expire_in": 157680000,
+    "prev": "58eea8fb6688f5f403cc594088dc2a00e72691ea76b0c2acaa05efe819d530a7",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owFVkntQFVUcx+9VoMBBMMHshbT0ckDaPXefF4ZAHikwoSgUUN3Zxzn3Lo+917uX
+KwgM8poRrGgAkSyKmDEwhIJeMCNoyjgivgYjCoxMaIJEM1JrplHaJXq4/+x5fM73
+/D7nnDd9lxt8jObiZ1LKNlcfNw7PCobtXh3ZRZhglwoxcxEm5spQcekthc+DmBnL
+gYUCr8Jw2R6s2CUYnq0GLzFhmBs6VdmuaBQeToUTWEmYjuuLkaxYodPhlPUsDLAi
+y9A0gfMEA6BECCKSaChSJp4RAUsiliA5lhOBFmmzq657dsUWMy2ypI2aYphYjU/4
+m4/V+fzFCVJiSUCIgGZpgaVYgYWAFBAuSQxJ8xDHdVCFziWlPFkVbbxNLzcPOnNy
+ocVpty86iy5ZJwgS5xhgwkmTVhCv2rQ1Ek/RgDIhhHCB4SmABMCbgGSCIok4CSFW
+FDmAkwxBQGAiofaTNGuIRJE1sTwQoEDTHGQYBtIcEAnISAzNQBFprNaSWIADisAl
+yBEizyOCQyQFCETjOCMyJOSRZqDCHYodM5M0wYISvet0yyLUy9YP7V83TQ3mbsjJ
+hzYF5oZLUFvpcNpddtGeq83bXC6HWTd3FTp0vnsnFCxLURZBViTt4v5/s4SG3nsq
+gCTCMFjgkJ3QIusExdAsrn36PtCtZVIshDyLNGOWRRQicZMoUhyJs6wkAh7HIQNo
+joA8Qwu4NqAJ4xREkCU4iTLhPPOfK6PVyVu1SFW2Krwr3wmxkuplj3oYjD4GL89l
++tM1+Hj7//Oe//zDb2HTwroAojS3/JjHp4HnTu7+ba5/wf1uSXgJ+UjY9KrKtPH5
+nsCMgiPtRZ7WgFrg2VkGh6ThSUPbJrWYTuprutGd7a70v/p1elPX45fqv715rSog
+8uzYEwdf3z3Udmf4MR83utxpjt/sVdPRpuxEezdksPuailwhY0FXBONaKccz+aHY
+wov+nkn9b018/+Evn1dHWXs+Sr+/z/HNireTjx8k7zMmt7SsKYv/MfVZb1cTGTQ/
+GD91ZqI+sKulv+PBxp669K1bG4yH5T6P5Y5Ja8zod43K6ejVofN4b5jj9sDUlobz
+od0/HZk8Kw4M+DbN+daOJCS+R85das6e3hfxSeDRoXFl+sSJgW2nbm7/NbO1Nr33
+iyS1L6GhanZs/vBg71xCa1RF9yvBfWPtXxVVt22zZHUe+OD8+pGnn/NHM0F3R9qr
+Bxawqi5Tf0oNE5fVEmd9Ne0aWlsa8GVB79z+lJAXJZSx6oWKQ+fqE69nFN+5aNnz
+vs+ZN7ZsTPS/Pv5k08qY0+XvZGatnigI8VpwP/Ba9CjYeyO60UXnvFSXOhNlS7md
+VvnxsZePPnzrgsNvV0FAdA24pZ6MU719r/wAS927hi5EqJGhlwf91kXsT/3598j1
+M8+vbO27Wmmd4ppn68ZTiYL2kQiDdc0pZbIrezSvuPzuoea8LG4qdCF4xQGPCqJz
+xx4s5LMA21OZfwE=
+=wTba
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mischah
+
+==================================================================
