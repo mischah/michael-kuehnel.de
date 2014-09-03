@@ -31,7 +31,7 @@ First things first: I didn’t want to use a blogging system with potential vuln
 Using Kirby meant that I still have to use a server side language (PHP in that case). So I decided to have a look at those ubiquitous static site generators.
 
 ### Choosing a static site generator
-There are dozens of generators which let you compile static HTML files on your machine you can easily deploy to a simple server with minimum requirements afterwards. Most of them dealing with *markdown* files. So generating content is about editing plain text which is a delightful experience compared to the hassle with using one of those annoying WYSIWYG „Rich Text“ editors. Especially when your are used to write markdown for READMEs and Docs.
+There are dozens of generators which let you compile static HTML files on your machine you can easily deploy to a simple server with minimum requirements afterwards. Most of them dealing with *markdown* files. So generating content is about editing plain text which is a delightful experience compared to the hassle with using one of those annoying WYSIWYG „Rich Text“ editors. Especially when you are used to write markdown for READMEs and Docs.
 
 ---
 
@@ -51,7 +51,7 @@ Long story short → I’ve chosen the *Ruby* based **Jekyll** mainly out of the
 1.  Incredibly easy to modify without using Ruby.  In fact  you don’t see any ruby code in your local installation.
 1.  Used by Github pages which makes deployment easy as never before.
 
-Let’s talk about deployment. In case your a using a Github repository called username.github.io it’s dead simple like pushing your master branch to that remote:
+Let’s talk about deployment. In case you are using a Github repository called username.github.io it’s dead simple as pushing your master branch to that remote:
 
 ```bash
 $ git push origin master
