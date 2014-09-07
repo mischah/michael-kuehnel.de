@@ -9,7 +9,7 @@ excerpt: "Part I of the »Jekyll Setup post« contains information about install
 disqusIdentifier: 2014-09-07-jekyll-setup-github
 ---
 
-As already announced in the first post I will explain a few key points on setting up Jekyll today. Pleaser refer to the »[technical aspects](/blogging/2014/09/01/welcome-first-post.html#technical-aspects)« of my blog if you have no clue what I’m talking about.
+As already announced in the first post I will explain a few key points on setting up [Jekyll](http://jekyllrb.com/) today. Pleaser refer to the »[technical aspects](/blogging/2014/09/01/welcome-first-post.html#technical-aspects)« of my blog if you have no clue what I’m talking about.
 
 Part I of the »Jekyll Setup post« contains information about installing Jekyll, including Flattr, adding comments, tweaking the site navigation and improving syntax highlighting within your blog posts. Part II will take care of GitHub specific stuff (Hosting, Plugins, etc.).
 
