@@ -11,12 +11,13 @@
 # Posts
 
 - Setting up Jekyll
-  - Install 
-  - Menu
-     - Sorting
-     - Invisisble pages
-  - Flattr Integration
-  - Default Theme
+  - https://help.github.com/articles/emoji-on-github-pages
+  - https://pages.github.com/versions/
+  - https://help.github.com/articles/repository-metadata-on-github-pages
+  - https://help.github.com/articles/using-jekyll-with-pages#keeping-jekyll-up-to-date
+  - Custom Domain
+    - https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider
+    - https://help.github.com/articles/adding-a-cname-file-to-your-repository
 - Bootstrap Kickstart
 - Bootstrap responsive mixins
   - http://codepen.io/ericrasch/pen/HzoEx?editors=110
