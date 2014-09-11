@@ -2,7 +2,6 @@
 
 ## Platform
 
-- Use tags as meta key words (in combination with static keywords)
 - Render tags in side
 - Open Graph metadata <http://ogp.me/>
 - Pagination

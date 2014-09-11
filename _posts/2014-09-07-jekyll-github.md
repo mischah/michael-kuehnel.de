@@ -4,7 +4,7 @@ lang: en_GB
 title:  "Setting up Jekyll (Part I) – including Flattr integration, comments etc."
 date:   2014-09-07 18:50:00
 category: jekyll
-tags: "blogging, jekyll"
+tags: "blogging, jekyll, flattr"
 excerpt: "Part I of the »Jekyll Setup post« contains information about installing Jekyll, including Flattr, adding comments, tweaking the site navigation and improving syntax highlighting within your blog posts."
 disqusIdentifier: 2014-09-07-jekyll-setup-github
 ---
