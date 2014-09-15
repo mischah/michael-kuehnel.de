@@ -1,0 +1,39 @@
+.reveal section .intro-image {
+	width: 55%;
+	border: none;
+}
+
+.reveal section .octocat {
+	width: 50%;
+	border: none;
+	background: none;
+	box-shadow: none
+}
+
+.reveal section .browser {
+	width: 95%;
+	border: none;
+	background: none;
+	box-shadow: none
+}
+
+.reveal section .regret {
+	width: 80%;
+	border: none;
+	background: none;
+	box-shadow: none
+}
+
+.reveal section .thanks {
+	width: 65%;
+	border: none;
+	background: none;
+	box-shadow: none
+}
+
+.reveal pre {
+	background: #3F3F3F;
+	border: 5px solid #fff;
+	padding: 5px 7px;
+	width: 100%;
+}

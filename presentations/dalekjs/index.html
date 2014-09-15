@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Cross-Browser-Testing mit DalekJS</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/moon.css" id="theme">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Include the appropriate print stylesheet -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section  data-background="#000">
+					<h1>DalekJS</h1>
+					<img src="4787890561_f747dc999b_b.jpg" alt="" class="intro-image">
+					<h3>Exterminate all bugs!</h3>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+					# Michael Kühnel
+
+					* macht Internet seit Netscape 4.7 <!-- .element: class="fragment roll-in" data-fragment-index="1" -->
+					* Frontend Developer bei <!-- .element: class="fragment roll-in" data-fragment-index="2" --> [Micromata](http://micromata.de)
+					* Twitter: <!-- .element: class="fragment roll-in" data-fragment-index="3" --> [@mkuehnel](http://twitter.com/mkuehnel)
+					* Web: <!-- .element: class="fragment roll-in" data-fragment-index="4" --> [michael-kuehnel.de](http://michael-kuehnel.de)
+
+					Note:
+					Seit über 10 Jahren Web.
+
+					</script>
+				</section>
+
+				<section data-background="tumblr_m99hl477gN1qax22ko2_500.gif" data-transition="slide" data-background-transition="slide">
+
+					<h1 style="color: #FFF">DalekJS?</h1>
+
+
+				</section>
+
+				<section data-markdown data-transition="slide" data-background-transition="slide">
+					<script type="text/template">
+					##  „Browser Fernsteuerung“
+
+					- <!-- .element: class="fragment roll-in"  data-fragment-index="1" --> **Aktionen**
+						- <!-- .element: class="fragment roll-in"  data-fragment-index="2" -->  URLs aufrufen, Elemente anklicken, Formularfelder füllen, Screenshots erstellen
+					- <!-- .element: class="fragment roll-in"  data-fragment-index="3" --> **Prüfen**
+						- <!-- .element: class="fragment roll-in"  data-fragment-index="4" --> Resultat ←→ Erwartung
+
+					Note:
+					- Selenium?
+					- Wozu: Oberflächen-Tests (UI-Tests)
+					- Default Browser: PhantomJS
+					- Open Source / JavaScript
+
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+					# Installation
+
+					## Linux, Mac, Windows – Node.js ✌
+
+					Siehe [Getting started](http://dalekjs.com/pages/getStarted.html#install)
+
+					Note:
+					- Dependency: Node.js
+					- Terminal-Phobiker: Nach der Installation → ein Befehl ggf. grunt
+
+					</script>
+				</section>
+
+				<section data-transition="default">
+
+					<h1>Die API</h1>
+
+					<pre><code class="javascript">test.open('http://foo.baz')
+  .click('.bar')
+  .waitForElement('#baz')
+  .assert.title().is('fooBar', 'Yeah')
+  .done();</code></pre>
+
+					<aside class="notes">
+						<ul>
+							<li>Fluid API</li>
+							<li>Method Chaining</li>
+							<li>jQuery Style</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+					# Actions
+					## Die Steuerung des Browsers
+
+					Komplette Liste → [Dokumentation](http://dalekjs.com/docs/actions.html).
+					</script>
+				</section>
+
+				<section data-transition="slide">
+
+					<h2>Actions</h2>
+
+					<ul>
+						<li class="fragment roll-in">
+							<p><a href="http://dalekjs.com/docs/actions.html#meth-open">.open()</a>
+							</p>
+							<pre><code class="javascript">.open('http://dalekjs.com')</code></pre>
+						</li>
+						<li class="fragment roll-in">
+							<p><a href="http://dalekjs.com/docs/actions.html#meth-click">.click()</a>
+							</p>
+							<pre><code class="javascript">.click('#logout')</code></pre>
+						</li>
+						<li class="fragment roll-in">
+							<p><a href="http://dalekjs.com/docs/actions.html#meth-type">.type()</a>
+							</p>
+							<pre><code class="javascript">.type('#MyElement', 'Mein Text')</code></pre>
+						</li>
+						<li class="fragment roll-in">
+							<p><a href="http://dalekjs.com/docs/actions.html#meth-waitForElement">.waitForElement()</a>
+							</p>
+							<pre><code class="javascript">.waitForElement('#result')</code></pre>
+						</li>
+						<li class="fragment roll-in">
+							<p><a href="http://dalekjs.com/docs/actions.html#meth-screenshot">.screenshot()</a>
+							</p>
+							<pre><code class="javascript">test.screenshot('my/folder/my_file.png');</code></pre>
+						</li>
+					</ul>
+
+					<aside class="notes">
+						<ul>
+							<li>Auswahl via CSS Selektor</li>
+							<li>Screenshot Viewport</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+					# Assertions
+					## Überprüfung unserer Erwartungen
+
+					Komplette Liste → [Dokumentation](http://dalekjs.com/docs/assertions.html).
+					</script>
+				</section>
+
+				<section data-transition="slide">
+					<h1>Assertions</h1>
+
+					<ul>
+						<li class="fragment roll-in">
+							<p><a href="http://dalekjs.com/docs/assertions.html#meth-exists">.exists()</a>
+								<br>Prüft das Vorhandensein eines DOM-Elementes.</p>
+							<pre><code>.assert.exists('#Logout', 'Logout Button ist vorhanden')</code></pre>
+						</li>
+						<li class="fragment roll-in">
+							<p><a href="http://dalekjs.com/docs/assertions.html#meth-text">.text()</a>
+								<br>Prüft den Textinhalt eines Elementes.</p>
+							<pre><code class="javascript">.assert.text('h1', 'Erwartete Headline', 'Headline ist korrekt')</code></pre>
+						</li>
+						<li class="fragment roll-in">
+							<p><a href="http://dalekjs.com/docs/assertions.html#meth-val">.val()</a>
+								<br>Prüft den Value eines Formular-Elementes.</p>
+							<pre><code class="javascript">.assert.val('#mySelect', '', 'Default Value ist korrekt')</code></pre>
+						</li>
+					</ul>
+
+					<aside class="notes">
+						<ul>
+							<li>Ggf. ebenfalls CSS selektoren</li>
+							<li>Letze Argument: Test Report</li>
+							<li>exists: Prüft das Vorhandensein eines DOM-Elementes.</li>
+							<li>text: Prüft den Textinhalt eines Elementes.</li>
+						</ul>
+					</aside>
+
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+					# Der erste Test
+					</script>
+				</section>
+
+				<section data-transition="default">
+					<h1>Login Status</h1>
+					<pre class="fragment roll-in"><code class="javascript">module.exports = {
+  'Check Login status': function (test) {
+    test
+   .open('https://github.com/')
+   .waitForElement('.header')
+   .assert.exists('.header-logged-out', 'User ist ausgeloggt')
+   .done();
+  }
+};</code></pre>
+
+					<aside class="notes">
+						<ul>
+							<li>Methoden im Objekt `module.exports` → Test</li>
+							<li>1 zu 1</li>
+						</ul>
+					</aside>
+
+				</section>
+
+				<section data-markdown data-background="#000">
+					<script type="text/template">
+					# Demo
+					</script>
+				</section>
+
+				<section data-background="#4183c4">
+					<h1>Tests zum nachspielen</h1>
+					<a href="https://github.com/mischah/dalekjs-demo">
+						<img src="octocat.png" alt="" class="octocat">
+					</a>
+				</section>
+
+				<section>
+
+					<h1>Cross-Browser-Tests</h1>
+					<img src="browser.png" alt="" class="browser">
+
+				</section>
+
+				<section>
+					<h2>Gelöst über DalekJS Plugins</h2>
+
+						<pre class="fragment"><code class="javascript"># Install
+npm install dalek-browser-chrome --save-dev</code></pre>
+						<pre class="fragment"><code class="javascript"># Execute
+dalek tests/firstTests.js -b chrome</code></pre>
+
+					<aside class="notes">
+						<ul>
+							<li>Keine Browser Plugins erforderlich</li>
+							<li>Dadurch fragil</li>
+							<li>Bis auf Chrome alles ziemlich kaputt</li>
+						</ul>
+					</aside>
+				</section>
+
+
+
+				<section data-background="facepalm-gif-31.gif" data-transition="slide" data-background-transition="slide">
+					<h1>IE Testing</h1>
+				</section>
+
+				<section data-background="#d55e5e" data-transition="slide" data-background-transition="slide">
+					<h2>Remote Test execution #FTW ❤</h2>
+
+					<ul>
+						<li class="fragment roll-in" style="color: #eee8d5">
+							VMs &nbsp; &nbsp; → <a href="https://modern.ie/de-de/virtualization-tools">Download</a>
+						</li>
+						<li class="fragment roll-in" style="color: #eee8d5">
+							Setup &nbsp; → <a href="http://vimeo.com/78144005">Screencast</a>
+						</li>
+						<li class="fragment roll-in" style="color: #eee8d5">
+							Broken → <a href="https://github.com/dalekjs/dalek/issues/122">Aber im nächsten Bugfix Release behoben</a>
+						</li>
+					</ul>
+
+				</section>
+
+				<section data-transition="default">
+
+					<h1>Alternative Reports</h1>
+
+					<h2>Gelöst über DalekJS Plugins</h2>
+
+					<ul>
+						<li>HTML, JSON, jUnit XML</li>
+						<li>Siehe <a href="http://dalekjs.com/pages/documentation.html#reports">Docs</a></li>
+					</ul>
+
+				</section>
+
+				<section>
+					<h1>Fazit</h1>
+					<img src="tumblr_mtsvk1hAg81stp6lqo1_400.gif" alt="" class="regret">
+
+				</section>
+
+				<section>
+					<ol>
+						<li>Frühe Version – Trotzdem Spass</li>
+						<li>Super einfach Test zu schreiben</li>
+						<li>Alternative: <a href="http://casperjs.org/">CasperJS</a></li>
+					</ol>
+
+
+					<aside class="notes">
+						<ol>
+							<li>Developer Preview 0.0.8 → Bugs Features </li>
+							<li>Installation → Test / Bedienbarkeit <-> Funktionsumfang</li>
+							<li>Cross-Browser-Einsatz nur headless | Breiterer Fokus an Einsatzmöglichkeiten</li>
+						</ol>
+					</aside>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+					# Links
+
+					- <http://webkrauts.de/artikel/2014/cross-browser-testing-mit-dalekjs>
+					- <http://dalekjs.com>
+					- <https://github.com/dalekjs>
+					- <https://github.com/mischah/dalekjs-demo>
+					- <https://github.com/micromata/dalekjs-testsuite>
+
+					</script>
+				</section>
+
+				<section>
+					<h1>Exterminated!</h1>
+					<img src="tumblr_mwbtbjBVNy1s14fjso2_r2_400.gif" alt="" class="thanks">
+
+					<h2>Fragen?</h2>
+
+
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'zoom', // none/fade/slide/convex/concave/zoom
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
