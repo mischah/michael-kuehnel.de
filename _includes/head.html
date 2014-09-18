@@ -43,8 +43,9 @@
 	<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html}}{% else %}{{ site.description }}{% endif %}" />
 	<meta property="og:site_name" content="{{site.title}}" />
 
-	<!-- Google Authorship -->
+	<!-- Google Authorship and Publisher Markup -->
 	<link rel="author" href="https://plus.google.com/112773480345599843234/posts"/>
+	<link rel="publisher" href="https://plus.google.com/112773480345599843234"/>
 
 	<!-- Schema.org markup for Google+ -->
 	<meta itemprop="name" content="{% if page.title == "Home"%}{{ site.title }}{% else %}{% if page.category %}{{ page.title }}{% else %}{{ page.title }} // {{ site.title }}{% endif %}{% endif %}">
