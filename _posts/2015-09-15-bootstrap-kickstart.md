@@ -5,7 +5,7 @@ title:  "Bootstrap Kickstart – A boilerplate for scaffolding Bootstrap themes 
 date:   2014-09-18 22:00:00
 category: Bootstrap
 tags: "Bootstrap, maintainability, boilerplate, skeleton, scaffolding, scaffold, theme, themes, kickstart, kickstarter, micromata, workflow"
-excerpt: "tbd"
+excerpt: "I released our internal repository for creating Bootstrap Themes a few weeks ago on Github. So I guess it’s time to write a short summary what this little project is all about. Basically it’s about making the best out of Bootstrap when it comes to using, adapting and extending it. So, you got to continue reading if your are using Bootstrap."
 disqusIdentifier: 2014-09-07-bootstrap-kickstart
 ---
 
@@ -14,7 +14,7 @@ disqusIdentifier: 2014-09-07-bootstrap-kickstart
     <div>
         <h2>What is this all about?</h2>
         <p>
-          I released our internal repository for creating Bootstrap Themes a few weeks ago on Github. So I guess it’s time to write a short summary what this little project is all about. At <a href="http://www.micromata">Micromata</a> we used Bootstrap to get things done rapidly. I’m pretty knew to Bootstrap and I developed a kind of a love-hate relationship in just a few days :neutral_face:. But I neither want to complain about bloated markup, nor argue about the pros and cons of using Bootstrap or Foundation in general in this post. It’s about making the best of Bootstrap when it comes to using, adapting and extending it. So, you got to continue reading if your are using Bootstrap. No matter whether you build templates based on Bootstrap, develop Bootstrap Themes, or you just creating static pages using Bootstrap.
+          I released our internal repository for creating Bootstrap Themes a few weeks ago on Github. So I guess it’s time to write a short summary what this little project is all about. At <a href="http://www.micromata">Micromata</a> we used Bootstrap to get things done rapidly. I’m pretty knew to Bootstrap and I developed a kind of a love-hate relationship in just a few days :neutral_face:. But I neither want to complain about bloated markup, nor argue about the pros and cons of using Bootstrap or Foundation in general in this post. Basically it’s about making the best out of Bootstrap when it comes to using, adapting and extending it. So, you got to continue reading if your are using Bootstrap. No matter if you build templates based on Bootstrap, develop Bootstrap Themes, or you just creating static pages using Bootstrap.
         </p>
     </div>
 </div>
