@@ -318,6 +318,9 @@ h2.post-meta {
 	.float-container h2:first-child {
 		margin-top: 0;
 		@include media-query($on-phone) {
+			margin-top: 0;
+		}
+		@include media-query($on-phone-portrait) {
 			margin-top: $spacing-unit;
 		}
 	}
@@ -335,6 +338,16 @@ h2.post-meta {
 
 		@include media-query($on-laptop) {
 			font-size: 18px;
+		}
+	}
+
+	img.float-left {
+		width: 280px;
+		@include media-query($on-phone) {
+			width: 210px;
+		}
+		@include media-query($on-phone-portrait) {
+			width: auto;
 		}
 	}
 
