@@ -15,7 +15,7 @@ disqusIdentifier: 2014-09-07-bootstrap-kickstart
     <div>
         <h2>What is this all about?</h2>
         <p>
-          I released our internal repository for creating Bootstrap Themes a few weeks ago on Github. So I guess it’s time to write a short summary what this little project is all about. At <a href="http://www.micromata">Micromata</a> we used Bootstrap to get things done rapidly. I’m pretty new to Bootstrap and I developed a kind of a love-hate relationship in just a few days :neutral_face:. But I neither want to complain about bloated markup, nor argue about the pros and cons of using Bootstrap or Foundation in general in this post. Basically it’s about making the best out of Bootstrap when it comes to using, adapting and extending it. So, you got to continue reading if your are using Bootstrap. No matter if you build templates based on Bootstrap, develop Bootstrap Themes, or you just creating static pages using Bootstrap.
+          I released our internal repository for creating Bootstrap Themes a few weeks ago on Github. So I guess it’s time to write a short summary what this little project is all about. At <a href="http://www.micromata">Micromata</a> we used Bootstrap to get things done rapidly. I’m pretty new to Bootstrap and I developed a kind of a love-hate relationship in just a few days. But I neither want to complain about bloated markup, nor argue about the pros and cons of using Bootstrap or Foundation in general in this post. Basically it’s about making the best out of Bootstrap when it comes to using, adapting and extending it. So, you got to continue reading if your are using Bootstrap. No matter if you build templates based on Bootstrap, develop Bootstrap Themes, or you just creating static pages using Bootstrap.
         </p>
     </div>
 </div>
@@ -23,7 +23,7 @@ disqusIdentifier: 2014-09-07-bootstrap-kickstart
 
 ### Scaffold your LESS files and your JavaScript
 
-The provided file structure is focused on maintainibility and upgradability. Beside that we are taking advantage of using [Bower – *A package manager for the web*](http://bower.io/) for managing the dependencies. Which are just a few plugins to enhance the experience for oldIE users besides Bootstrap itself. So in the best case updating Bootstrap is just about changing the version number in the `bower.json` file. But even if there are major changes like renamed or new mixins, variables or something similiar you probably won’t get hurt.
+The provided file structure is focused on maintainibility and upgradability. Beside that we are taking advantage of using [Bower – *A package manager for the web*](http://bower.io/) for managing the dependencies. Which are just a few plugins to enhance the experience for oldIE users – besides Bootstrap itself. So in the best case updating Bootstrap is just about changing the version number in the `bower.json` file. But even if there are major changes like renamed or new mixins, variables or something similiar you probably won’t get hurt seriously.
 
 ### Automation #ftw – Using Grunt to build things
 
@@ -31,13 +31,13 @@ The JavaScript Task Runner [Grunt](http://gruntjs.com) is taking care of repetit
 
 ### Advantages a.k.a. »The Management Summary«
 
-As a result of this you gain the following advantages: First and foremost you will save time. When setting up new projects as well as when working with projects over time. Furthermore the standardization across projects is leading to more transparency and an easier know-how-transfer between teams. 
+As a result of this you gain the following advantages: First and foremost you will save time. When setting up new projects as well as when working with projects over time. Furthermore the standardization across projects is leading to more transparency and an easier know-how-transfer between developers and teams. 
 
 Get over to [Github](https://github.com/micromata/bootstrap-kickstart) to clone, fork, download, report issues, create pull request or do whatever you want with this project. Please be aware of the licenses of the components we use in this project. Everything else that has been developed by the contributions to this project is under [MIT License](https://github.com/micromata/bootstrap-kickstart/blob/master/LICENSE).
 
 Have fun :octocat:
 
-You find the most important parts of the *README* below in case you prefer to continue reading over here.
+You find the most important parts of the *README* below, in case you prefer to continue reading over here.
 
 ---
 
