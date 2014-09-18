@@ -6,7 +6,7 @@ menu: true
 ---
 
 <div class="float-container">
-    <img src="/assets/img/michael-kuehnel.de.jpg" alt="Foto: Michael Kühnel" class="float-left">
+    <img src="/assets/img/michael-kuehnel.jpg" alt="Foto: Michael Kühnel" class="float-left">
     <div>
         <h2>Hi, it’s me.</h2>
         <p>
