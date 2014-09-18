@@ -25,4 +25,30 @@
 	<meta name="msapplication-TileColor" content="#b31a30">
 	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
 	<meta name="application-name" content="michael-kuehnel.de">
+
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@mkuehnel">
+	<meta name="twitter:title" content="{% if page.title == "Home"%}{{ site.title }}{% else %}{% if page.category %}{{ page.title }}{% else %}{{ page.title }} // {{ site.title }}{% endif %}{% endif %}">
+	<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html}}{% else %}{{ site.description }}{% endif %}">
+	<meta name="twitter:creator" content="@mkuehnel">
+	<!-- Twitter Summary card images must be at least 200x200px -->
+	<meta name="twitter:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}">
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="{% if page.title == "Home"%}{{ site.title }}{% else %}{% if page.category %}{{ page.title }}{% else %}{{ page.title }} // {{ site.title }}{% endif %}{% endif %}" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="{{site.url}}{{page.url}}" />
+	<meta property="og:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}" />
+	<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html}}{% else %}{{ site.description }}{% endif %}" />
+	<meta property="og:site_name" content="{{site.title}}" />
+
+	<!-- Google Authorship -->
+	<link rel="author" href="https://plus.google.com/112773480345599843234/posts"/>
+
+	<!-- Schema.org markup for Google+ -->
+	<meta itemprop="name" content="{% if page.title == "Home"%}{{ site.title }}{% else %}{% if page.category %}{{ page.title }}{% else %}{{ page.title }} // {{ site.title }}{% endif %}{% endif %}">
+	<meta itemprop="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html}}{% else %}{{ site.description }}{% endif %}">
+	<meta itemprop="image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}">
+
 </head>

@@ -11,6 +11,7 @@ keywords: >
   CSS, Markup, HTML
 baseurl: ""
 url: "http://michael-kuehnel.de"
+image: "/assets/img/michael-kuehnel.jpg"
 
 # Build settings
 markdown: kramdown
