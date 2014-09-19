@@ -3,6 +3,7 @@ layout: page
 title: Presentations
 permalink: /presentations/
 menu: true
+image: "/assets/img/dalek-slides-01.jpg"
 ---
 
 <div class="float-container">
@@ -12,13 +13,53 @@ menu: true
     <div>
         <h2>Cross-Browser-Testing with DalekJS</h2>
         <p>
-          <a href="dalekjs">Slides</a> from the 6th Webmonday in Kassel.
+          <a href="dalekjs">Slides</a> from the 6th Webmontag in Kassel (September 2014).
         </p>
     </div>
 </div>
 
 ---
 
+## The state of JavaScript Linting
+
+A presentation about JS Syntax Checking and Validation. Answers the question: »What is this linting thing all about?« and introduces tools like JSLint, JSHint and ESLint.
+
+[Slides](http://de.slideshare.net/mischah/js-linting-en) from 3rd Webmontag Kassel (March 2014).
+
+---
+
+## jQuery .data() und HTML5 data Attribute
+
+Short introduction of how to handle data attributes with jQuery. Showing the pitfalls and when the difference to setting/getting them via .attr(). 
+
+[Slides](http://de.slideshare.net/mischah/data-30217912) from 2nd Webmontag Kassel (January 2014).
+
+---
+
+## How to use Twitter?
+
+Explaning the main differences between Facebook and Twitter and showing who sees what on their timeline.
+
+[Slides](http://cl.ly/1f2D343t2q1B) from 2st Webmontag Kassel (November 2013).
+
+---
+
+## Building native iOS Apps with webtechnologies
+
+Roundtrip through the tools and possibilities to use the web stack to ship native apps.
+
+[Slides](ios-apps-mit-webtechnologien-erstellen/) from 2nd Webmontag Marburg (October 2012).
+
+---
+
+## Frontend Coding Guidelines - Ein Baustein zur Qualitätssicherung
+
+Diese Präsentation beantwortet die folgenden Fragen: 
+- Für wen sind Coding Guidelines sinnvoll? 
+- Warum? 
+- Was sollte enthalten sein? 
+
+[Slides](http://de.slideshare.net/mischah/frontend-coding-guidelines-ein-baustein-zur-qualittssicherung) from 1st Webmontag Marburg (Juli 2012)
 
 
 
