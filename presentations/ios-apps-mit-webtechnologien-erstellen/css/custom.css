@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/**
+ * Body
+ */
+body {
+	font-size: 40px;
+}
+
+/**
+ * Headlines
+ */
+.reveal h1 {margin-bottom: 60px; }
+.reveal h2 {margin-bottom: 40px; }
+
+.reveal h1 { font-size: 3.25em; }
+
+/**
+ * Lists
+ */
+.reveal ul li,
+.reveal ol li {
+	margin-bottom: 20px;
+}
+
+.reveal ul ul {
+	margin-top: 10px;
+}
+
+/**
+ * Quotes
+ */
+.reveal blockquote {
+	margin-bottom: 15px;
+}
+
+/**
+ * Images
+ */
+.reveal img.plain {
+	background: none;
+	border: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}

@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>iOS Apps mit Webtechnologien</title>
+
+		<meta name="description" content="Überblick über verschiedene Möglichkeiten mit HTML, CSS und JavaScript native iOS Apps zu erstellen.">
+		<meta name="author" content="Michael Kühnel">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- My custom additions -->
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			(function() {
+				var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+				s.type = 'text/javascript';
+				s.async = true;
+				s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+				t.parentNode.insertBefore(s, t);
+			})();
+		/* ]]> */
+		</script>
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-26636606-1']);
+			_gaq.push(['_setDomainName', 'michael-kuehnel.de']);
+			_gaq.push(['_setAllowLinker', true]);
+			_gaq.push(['_trackPageview']);
+
+			(function () {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+	</script>
+	</head>
+
+	<body id="content">
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+					<h1>iOS Apps mit Webtechnologien erstellen</h1>
+					<h3>Ein Überblick</h3>
+					<a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://www.michael-kuehnel.de/presentations/ios-apps-mit-webtechnologien-erstellen"></a>
+					<noscript><a href="http://flattr.com/thing/953502/iOS-Apps-mit-Webtechnologien-erstellen-Ein-Uberblick" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+				</section>
+
+				<section>
+					<h2>Michael Kühnel </h2>
+					<ul>
+						<li>Macht Internet seit Netscape 4.7</li>
+						<li>Frontend Developer bei der SMA Solar Technology AG</li>
+						<li>Twitter: <a href="http://twitter.com/mkuehnel">@mkuehnel</a></li>
+						<li>Website: <a href="http://michael-kuehnel.de">www.michael-kuehnel.de</a></li>
+					</ul>
+
+					<aside class="notes">
+						Internet seit über 10 Jahren (seit Netscape 4.7).
+					</aside>
+				</section>
+
+				<!--
+				<section>
+					<h2>Worum geht es nicht</h2>
+					<p>Cross Platform Development</p>
+					<img class="plain" src="images/cross-platform.png" alt="">
+					<aside class="notes">
+						Auch wenn das mit den vorgestellten Tools möglich ist.<br>
+						Und auch mal thematisiert wird.
+					</aside>
+				</section>
+				-->
+
+				<section>
+					<h2>Worum geht es</h2>
+					<ul>
+						<li>UIWebView</li>
+						<li>Apache Cordova (PhoneGap)</li>
+						<li>Appcelerator Titanium</li>
+					</ul>
+
+					<aside class="notes">
+						Verschiedene Möglichkeiten HTML, CSS, JavaScript native iOS Apps zu erstellen.
+						<br><br>
+						Titanium: Sonderrolle, weil es hier nur die Möglichkeit gibt, seine Views mit JavaScript zu erstellen.
+					</aside>
+				</section>
+
+				<section>
+					<h2>Native Apps = Native Toolchain</h2>
+					<h3 class="fragment">Voraussetzungen</h3>
+					<ul>
+						<li class="fragment">Apple Macintosh</li>
+						<li class="fragment">iOS SDK
+							<ul>
+								<li class="fragment">Xcode IDE</li>
+								<li class="fragment">UIKit Framework, iPhone-Simulator, weitere Tools, Compiler etc.</li>
+							</ul>
+						</li>
+						<li class="fragment">iOS Developer Program (<a href="https://developer.apple.com/programs/ios/">$99/Jahr</a>)</li>
+					</ul>
+					<aside class="notes">
+						- Xcode kostenlos<br>
+						- iOS Developer Program notwendig:<br>
+						- - zum testen auf devices<br>
+						- - zum veröffentlich in App Store
+					</aside>
+				</section>
+
+				<section>
+
+					<section>
+						<h2>UIWebView</h2>
+						<blockquote cite="http://developer.apple.com/library/ios/#documentation/uikit/reference/UIWebView_Class/Reference/Reference.html">
+							You use the UIWebView class to embed web content in your application. To do so,
+							you simply create a UIWebView object, attach it to a window, and send it a
+							request to load web content. 
+						</blockquote>
+						<p>Siehe <a href="http://developer.apple.com/library/ios/#documentation/uikit/reference/UIWebView_Class/Reference/Reference.html">developer.apple.com</a></p>
+
+						<aside class="notes">
+							Rudimentärste Möglichkeit.
+						</aside>
+					</section>
+					<section>
+						<h2>Fakten</h2>
+						<ul>
+							<li class="fragment">»Container« für Webinhalte</li>
+							<li class="fragment">Bestandteil des Apple UIKit Frameworks</li>
+							<li class="fragment">Kann »interne« und »externe« Inhalte laden</li>
+							<li class="fragment">Build Prozess über Xcode</li>
+							<li class="fragment">
+								Native APIs teilweise über HTML5 APIs nachrüstbar:
+								<ul>
+									<li class="fragment"><a href="http://www.html5rocks.com/en/features/offline">Offline</a>/<a href="http://www.html5rocks.com/en/features/storage">Storage</a>: Application Cache, Local Storage, Web SQL &amp; Indexed Database</li>
+									<li class="fragment"><a href="http://www.html5rocks.com/en/tutorials/geolocation/trip_meter/">Geolocation</a>, <a href="http://www.html5rocks.com/en/tutorials/getusermedia/intro/">Media Capture</a> and 	<a href="http://www.html5rocks.com/en/tutorials/file/dndfiles/">File API</a></li>
+								</ul>
+							</li>
+						</ul>
+
+						<aside class="notes">
+							More to come: Vibration API, Device orientation API, Mobile Device APIs.
+							<br><br>
+							Device APIs bereits Bestandteil von Cordova/Phonegap.
+						</aside>
+					</section>
+					<section>
+						<h2>Vorteile</h2>
+						<ul>
+							<li class="fragment">»Freiheit« in der Webentwicklung:
+								<ul>
+									<li class="fragment">Serverseitige -> Datenbanken, Skriptsprachen etc.</li>
+									<li class="fragment">Clientseitig -> Datenbanken, CSS und JavaScript Frameworks etc.</li>
+								</ul>
+							</li>
+							<li class="fragment">Gleiche Code-Basis ggf. für andere Plattformen nutzbar.</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Nachteile</h2>
+						<ul>
+							<li class="fragment">Performance: Andere JavaScript Engine als in Mobile Safari</li>
+							<li class="fragment">Rudimentäre iOS SDK und Objective-C Kentnisse nötig</li>
+						</ul>
+
+						<aside class="notes">
+								Gute, auch deutsche Tutorials zu dem Thema vorhanden.
+						</aside>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Apache Cordova (PhoneGap)</h2>
+						<img src="images/cordova.png" class="plain" alt="">
+						<blockquote cite="http://incubator.apache.org/cordova/">
+							Apache Cordova is a platform for building native mobile applications using
+							HTML, CSS and JavaScript.
+						</blockquote>
+						<p>Siehe <a href="http://incubator.apache.org/cordova/">incubator.apache.org/cordova</a></p>
+
+						<aside class="notes">
+							
+						</aside>
+					</section>
+					<section>
+						<h2>Fakten</h2>
+						<ul>
+							<li class="fragment">»Container« für Webinhalte</li>
+							<li class="fragment">
+									Kann nur mit »internen« Inhalten (HTML, CSS, Javascript) umgehen
+							</li>
+							<li class="fragment">Build Prozess über Xcode</li>
+							<li class="fragment">
+								Zusätzliche Javascript Device APIs:<br>
+								<span class="fragment"><a href="http://docs.phonegap.com/en/2.1.0/cordova_accelerometer_accelerometer.md.html#Accelerometer">Accelerometer</a>,
+								<a href="http://docs.phonegap.com/en/2.1.0/cordova_camera_camera.md.html#Camera">Camera</a>,
+								<a href="http://docs.phonegap.com/en/2.1.0/cordova_media_capture_capture.md.html#Capture">Capture</a>,
+								<a href="http://docs.phonegap.com/en/2.1.0/cordova_compass_compass.md.html#Compass">Compass</a>,
+								<a href="http://docs.phonegap.com/en/2.1.0/cordova_connection_connection.md.html#Connection">Connection</a>,
+								<a href="http://docs.phonegap.com/en/2.1.0/cordova_contacts_contacts.md.html#Contacts">Contacts</a>,
+								<a href="http://docs.phonegap.com/en/2.1.0/cordova_device_device.md.html#Device">Device</a>,
+								<a href="http://docs.phonegap.com/en/2.1.0/cordova_events_events.md.html#Events">Events</a>,
+								<a href="http://docs.phonegap.com/en/2.1.0/cordova_file_file.md.html#File">File</a>,
+								<a href="http://docs.phonegap.com/en/2.1.0/cordova_geolocation_geolocation.md.html#Geolocation">Geolocation</a>,
+								<a href="http://docs.phonegap.com/en/2.1.0/cordova_media_media.md.html#Media">Media</a>,
+								<a href="http://docs.phonegap.com/en/2.1.0/cordova_notification_notification.md.html#Notification">Notification</a>,
+								<a href="http://docs.phonegap.com/en/2.1.0/cordova_storage_storage.md.html#Storage">Storage</a></span>
+							</li>
+						</ul>
+
+						<aside class="notes">
+							
+						</aside>
+					</section>
+					<section>
+						<h2>Vorteile</h2>
+						<ul>
+							<li class="fragment">»Freiheit« in der Webentwicklung:
+								<ul>
+									<li class="fragment">Clientseitig -> CSS und JavaScript Frameworks etc.</li>
+								</ul>
+							</li>
+							<li class="fragment">Alle wichtigen Geräte APIs werden unterstützt</li>
+							<li class="fragment">Gleiche Code-Basis für andere Devices nutzbar:
+								<ul>
+									<li class="fragment">Unterstützt zur Zeit <a href="http://phonegap.com/about/feature">7</a> mobile Plattformen.</li>
+								</ul>
+							</li>
+							<li class="fragment">Open Source und kostenlos</li>
+						</ul>
+
+						<aside class="notes">
+							Dabei liegt der Teufel im Detail:<br>
+							- Nicht alle Plattformen unsterstützen alle APIs<br>
+							- Und nicht im ganzen Umfang
+						</aside>
+					</section>
+					<section>
+						<h2>Nachteile</h2>
+						<ul>
+							<li class="fragment">Performance: Andere JavaScript Engine als in Mobile Safari</li>
+							<li class="fragment">Kein Einsatz von serverseitigen Scriptsprachen möglich</li>
+						</ul>
+
+						<aside class="notes">
+								
+						</aside>
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+						<h2>Appcelerator Titanium SDK</h2>
+						<img src="images/appcelerator.png" alt="" style="background: white">
+						<blockquote cite="http://www.appcelerator.com/platform/titanium-sdk/">
+							Create rich native iOS, Android, hybrid, and mobile web apps from a single JavaScript-based SDK.
+						</blockquote>
+						<p>Siehe <a href="http://www.appcelerator.com/platform/titanium-sdk/">appcelerator.com</a></p>
+
+						<aside class="notes">
+							
+						</aside>
+					</section>
+					<section>
+						<h2>Fakten</h2>
+						<ul>
+							<li class="fragment">JavaScript basierte Plattform
+								<ul>
+									<li class="fragment">»JavaScript« -> »Objective C« Bridge</li>
+									<li class="fragment">Man programmiert JavaScript und die App nutzt letzlich native APIs</li>
+									<li class="fragment">Unterstütztung von JavaScript Modulen nach der <a href="http://www.commonjs.org/">CommonJS Module Specification</a></li>
+								</ul>
+							</li>
+							<li class="fragment">Build Prozess über <a href="http://www.appcelerator.com/platform/titanium-studio">Titanium Studio</a></li>
+						</ul>
+
+						<aside class="notes">
+							
+						</aside>
+					</section>
+					<section>
+						<h2>Vorteile</h2>
+						<ul>
+							<li class="fragment">Native UI Elemente</li>
+							<li class="fragment">Performance</li>
+							<li class="fragment">Gleiche Code-Basis für andere Devices nutzbar:
+								<ul>
+									<li class="fragment">Unterstützt zur Zeit <a href="http://www.appcelerator.com/platform/titanium-sdk/">3</a> mobile Plattformen.</li>
+								</ul>
+							</li>
+						</ul>
+
+						<aside class="notes">
+							Dabei liegt der Teufel im Detail:<br>
+							- Nicht alle Plattformen unsterstützen alle APIs<br>
+							- Und nicht im ganzen Umfang
+						</aside>
+					</section>
+					<section>
+						<h2>Nachteile</h2>
+						<ul>
+							<li class="fragment">Pure JavaScript Lösung. Kein HTML, kein CSS.</li>
+							<li class="fragment">Kein Einsatz von serverseitigen Scriptsprachen möglich</li>
+							<li class="fragment">Kommerzieles Produkt mit dem eine Firma Geld verdienen muss. Siehe <a href="http://www.appcelerator.com/plans-pricing">Preistabelle</a>.</li>
+						</ul>
+
+						<aside class="notes">
+							Nicht nur Logik, sondern auch Views werden per JavaScript programmiert.<br><br>
+							Extrakosten für: Support, Extensions, Cloud Services etc.
+						</aside>
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+						<h2>Fazit</h2>
+						<h3 class="fragment">»Richtige« Apps benötigen »richtige« APIs</h3>
+						<ul>
+							<li class="fragment">Kein Unterschied an API Features zwischen Cordova und Titanium SDK</li>
+							<li class="fragment">Letzlich eine Sache der persönlichen Präferenz:
+								<ul>
+									<li class="fragment">Performance vs. Flexibilität …</li>
+									<li class="fragment">Vorhandenes Wissen … etc …</li>
+								</ul>
+							</li>
+						</ul>
+
+						<aside class="notes">
+							Will ich Javascript meine Views programmieren?
+							Geht natürlich auch mit Phonegap und z.B. Sencha Touch.
+						</aside>
+					</section>
+					<section>
+						<h2>Direkter Vergleich einer App in Entwicklung</h2>
+						<h3>»Workout Log« auf github</h3>
+						<ul>
+							<li><a href="https://github.com/mischah/workout-log">Titanium Branch</a> </li>
+							<li><a href="https://github.com/mischah/workout-log/tree/cordova-phonegap">Phonegap Branch</a> </li>
+						</ul>
+					</section>
+					<aside class="notes">
+							Bis jetzt nur UI, wenig Funktionalität
+						</aside>
+				</section>
+
+				<section>
+					<section>
+						<h1>Alternativen</h1>
+						<aside class="notes">
+							Weitere Möglichkeiten ohne Objective C native iOS Applikationen zu erstellen
+						</aside>
+					</section>
+
+					<section>
+						<h2>RubyMotion</h2>
+						<blockquote cite="http://www.rubymotion.com/">
+							RubyMotion is a revolutionary toolchain for iOS.
+							 It lets you quickly develop and test native iOS applications for iPhone or iPad,
+							 all using the awesome Ruby language you know and love.
+						</blockquote>
+						<p>Siehe <a href="http://www.rubymotion.com/">rubymotion.com</a></p>
+						<aside class="notes">
+							iOS only
+						</aside>
+					</section>
+					
+					<section>
+						<h2>Corona</h2>
+						<blockquote cite="http://www.coronalabs.com/">
+							With Corona, you will develop mobile apps in record time. 
+							Develop in Lua, an easy-to-learn language that coupled with our elegant APIs allow
+							you to add features like Facebook and physics in just a few lines of code.
+						</blockquote>
+						<p>Siehe <a href="http://www.coronalabs.com/">coronalabs.com</a></p>
+
+						<aside class="notes">
+							Android and iOS
+						</aside>
+					</section>
+
+				</section>
+
+				<section>
+					<h2>Das wars ; )</h2>
+					<img src="images/applause.gif" alt="" style="margin-bottom:30px">
+					<h3 style="text-align:left">Fragen?</h3>
+					<p style="text-align:left">
+						Twitter: <a href="http://twitter.com/mkuehnel">@mkuehnel</a><br>
+						E-Mail: <a href="mailto:mail@michael-kuehnel.de">mail@michael-kuehnel.de</a><br>
+						<a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://www.michael-kuehnel.de/presentations/ios-apps-mit-webtechnologien-erstellen"></a>
+					<noscript><a href="http://flattr.com/thing/953502/iOS-Apps-mit-Webtechnologien-erstellen-Ein-Uberblick" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+					</p>
+
+				</section>
+
+				<section>
+					<h2>Appendix – Links</h2>
+					<p>Mobile JavaScript/CSS Frameworks</p>
+					<ul>
+						<li><a href="http://zeptojs.com/">Zepto</a></li>
+						<li><a href="http://www.jqtouch.com/">jQTouch</a></li>
+						<li><a href="http://jquerymobile.com/">jQuery Mobile</a></li>
+						<li><a href="http://www.sencha.com/products/touch/">Sencha Touch</a></li>
+						<li><a href="http://www.kendoui.com/mobile.aspx">Kendo UI Mobile</a></li>
+						<li><a href="http://foundation.zurb.com/">Foundation 3</a></li>
+						<li><a href="http://sidetap.it/">Sidetap</a></li>
+					</ul>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				//rollingLinks: false,
+				mouseWheel: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/linear(2d)
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/highlight.js', async: true, callback: function() { window.hljs.initHighlightingOnLoad(); } },
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'lib/js/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/js/data-markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/zoom-js/zoom.js', condition: function() { return !!document.body.classList; } },
+					{ src: '/socket.io/socket.io.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
+					{ src: 'plugin/speakernotes/client.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
