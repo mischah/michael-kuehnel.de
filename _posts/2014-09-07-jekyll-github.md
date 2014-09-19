@@ -5,13 +5,20 @@ title:  "Setting up Jekyll (Part I) – including Flattr integration, comments e
 date:   2014-09-07 18:50:00
 category: jekyll
 tags: "blogging, jekyll, flattr"
+image: "/assets/img/jekyll-logo.png"
 excerpt: "Part I of the »Jekyll Setup post« contains information about installing Jekyll, including Flattr, adding comments, tweaking the site navigation and improving syntax highlighting within your blog posts."
 disqusIdentifier: 2014-09-07-jekyll-setup-github
 ---
 
-As already announced in the first post I will explain a few key points on setting up [Jekyll](http://jekyllrb.com/) today. Pleaser refer to the »[technical aspects](/blogging/2014/09/01/welcome-first-post.html#technical-aspects)« of my blog if you don’t have a clue what I’m talking about.
-
-Part I of the »Jekyll Setup post« contains information about installing Jekyll, including Flattr, adding comments, tweaking the site navigation and improving syntax highlighting within your blog posts. Part II will take care of GitHub specific stuff (Hosting, Plugins, etc.).
+<div class="float-container">
+    <img src="{{page.image}}" alt="Logo: Jekyll" class="float-left">
+    <div>
+        <h2>Having fun with Jekyll</h2>
+        <p>
+          As already announced in the first post I will explain a few key points on setting up <a href="http://jekyllrb.com/">Jekyll</a> today. Pleaser refer to the »<a href="/blogging/2014/09/01/welcome-first-post.html#technical-aspects">technical aspects</a>« of my blog if you don’t have a clue what I’m talking about. Part I of the »Jekyll Setup post« contains information about installing Jekyll, including Flattr, adding comments, tweaking the site navigation and improving syntax highlighting within your blog posts. Part II will take care of GitHub specific stuff (Hosting, Plugins, etc.).
+        </p>
+    </div>
+</div>
 
 ## Install Jekyll
 
