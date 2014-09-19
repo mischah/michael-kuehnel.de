@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Cross-Browser-Testing mit DalekJS</title>
+		<title>Cross-Browser-Testing with DalekJS</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -51,8 +51,8 @@
 					<script type="text/template">
 					# Michael Kühnel
 
-					* macht Internet seit Netscape 4.7 <!-- .element: class="fragment roll-in" data-fragment-index="1" -->
-					* Frontend Developer bei <!-- .element: class="fragment roll-in" data-fragment-index="2" --> [Micromata](http://micromata.de)
+					* Working on the web since Netscape 4.7 <!-- .element: class="fragment roll-in" data-fragment-index="1" -->
+					* Frontend Developer at <!-- .element: class="fragment roll-in" data-fragment-index="2" --> [Micromata](http://micromata.de)
 					* Twitter: <!-- .element: class="fragment roll-in" data-fragment-index="3" --> [@mkuehnel](http://twitter.com/mkuehnel)
 					* Web: <!-- .element: class="fragment roll-in" data-fragment-index="4" --> [michael-kuehnel.de](http://michael-kuehnel.de)
 
@@ -71,10 +71,10 @@
 
 				<section data-markdown data-transition="slide" data-background-transition="slide">
 					<script type="text/template">
-					##  „Browser Fernsteuerung“
+					##  „Browser remote control“
 
-					- <!-- .element: class="fragment roll-in"  data-fragment-index="1" --> **Aktionen**
-						- <!-- .element: class="fragment roll-in"  data-fragment-index="2" -->  URLs aufrufen, Elemente anklicken, Formularfelder füllen, Screenshots erstellen
+					- <!-- .element: class="fragment roll-in"  data-fragment-index="1" --> **Actions**
+						- <!-- .element: class="fragment roll-in"  data-fragment-index="2" -->  Opening URLs, clicking elements, enter form fields, taking screenshots
 					- <!-- .element: class="fragment roll-in"  data-fragment-index="3" --> **Prüfen**
 						- <!-- .element: class="fragment roll-in"  data-fragment-index="4" --> Resultat ←→ Erwartung
 
@@ -93,7 +93,7 @@
 
 					## Linux, Mac, Windows – Node.js ✌
 
-					Siehe [Getting started](http://dalekjs.com/pages/getStarted.html#install)
+					See [Getting started](http://dalekjs.com/pages/getStarted.html#install)
 
 					Note:
 					- Dependency: Node.js
@@ -104,7 +104,7 @@
 
 				<section data-transition="default">
 
-					<h1>Die API</h1>
+					<h1>The API</h1>
 
 					<pre><code class="javascript">test.open('http://foo.baz')
   .click('.bar')
@@ -124,9 +124,9 @@
 				<section data-markdown>
 					<script type="text/template">
 					# Actions
-					## Die Steuerung des Browsers
+					## Controlling the Browsers
 
-					Komplette Liste → [Dokumentation](http://dalekjs.com/docs/actions.html).
+					Complete list → [The docs](http://dalekjs.com/docs/actions.html).
 					</script>
 				</section>
 
@@ -173,9 +173,9 @@
 				<section data-markdown>
 					<script type="text/template">
 					# Assertions
-					## Überprüfung unserer Erwartungen
+					## Check your assumptions
 
-					Komplette Liste → [Dokumentation](http://dalekjs.com/docs/assertions.html).
+					Complete list → [The docs](http://dalekjs.com/docs/assertions.html).
 					</script>
 				</section>
 
@@ -185,18 +185,18 @@
 					<ul>
 						<li class="fragment roll-in">
 							<p><a href="http://dalekjs.com/docs/assertions.html#meth-exists">.exists()</a>
-								<br>Prüft das Vorhandensein eines DOM-Elementes.</p>
-							<pre><code>.assert.exists('#Logout', 'Logout Button ist vorhanden')</code></pre>
+								<br>Asserts that an element exists.</p>
+							<pre><code>.assert.exists('#Logout', 'Logout Button is there')</code></pre>
 						</li>
 						<li class="fragment roll-in">
 							<p><a href="http://dalekjs.com/docs/assertions.html#meth-text">.text()</a>
-								<br>Prüft den Textinhalt eines Elementes.</p>
-							<pre><code class="javascript">.assert.text('h1', 'Erwartete Headline', 'Headline ist korrekt')</code></pre>
+								<br>Asserts that given text does exist.</p>
+							<pre><code class="javascript">.assert.text('h1', 'Expected Headline', 'Headline is correct')</code></pre>
 						</li>
 						<li class="fragment roll-in">
 							<p><a href="http://dalekjs.com/docs/assertions.html#meth-val">.val()</a>
-								<br>Prüft den Value eines Formular-Elementes.</p>
-							<pre><code class="javascript">.assert.val('#mySelect', '', 'Default Value ist korrekt')</code></pre>
+								<br>Asserts that a given form field has the provided value.</p>
+							<pre><code class="javascript">.assert.val('#mySelect', '', 'Default Value ist correct')</code></pre>
 						</li>
 					</ul>
 
@@ -213,7 +213,7 @@
 
 				<section data-markdown>
 					<script type="text/template">
-					# Der erste Test
+					# The first Test
 					</script>
 				</section>
 
@@ -224,7 +224,7 @@
     test
    .open('https://github.com/')
    .waitForElement('.header')
-   .assert.exists('.header-logged-out', 'User ist ausgeloggt')
+   .assert.exists('.header-logged-out', 'User is logged out')
    .done();
   }
 };</code></pre>
@@ -245,7 +245,7 @@
 				</section>
 
 				<section data-background="#4183c4">
-					<h1>Tests zum nachspielen</h1>
+					<h1>Reenact the tests</h1>
 					<a href="https://github.com/mischah/dalekjs-demo">
 						<img src="octocat.png" alt="" class="octocat">
 					</a>
@@ -259,7 +259,7 @@
 				</section>
 
 				<section>
-					<h2>Gelöst über DalekJS Plugins</h2>
+					<h2>via DalekJS Plugins</h2>
 
 						<pre class="fragment"><code class="javascript"># Install
 npm install dalek-browser-chrome --save-dev</code></pre>
@@ -292,7 +292,7 @@ dalek tests/firstTests.js -b chrome</code></pre>
 							Setup &nbsp; → <a href="http://vimeo.com/78144005">Screencast</a>
 						</li>
 						<li class="fragment roll-in" style="color: #eee8d5">
-							Broken → <a href="https://github.com/dalekjs/dalek/issues/122">Aber im nächsten Bugfix Release behoben</a>
+							Broken → <a href="https://github.com/dalekjs/dalek/issues/122">Will be fixed in the next Bugfix Release</a>
 						</li>
 					</ul>
 
@@ -302,25 +302,25 @@ dalek tests/firstTests.js -b chrome</code></pre>
 
 					<h1>Alternative Reports</h1>
 
-					<h2>Gelöst über DalekJS Plugins</h2>
+					<h2>Via DalekJS Plugins</h2>
 
 					<ul>
 						<li>HTML, JSON, jUnit XML</li>
-						<li>Siehe <a href="http://dalekjs.com/pages/documentation.html#reports">Docs</a></li>
+						<li>See <a href="http://dalekjs.com/pages/documentation.html#reports">Docs</a></li>
 					</ul>
 
 				</section>
 
 				<section>
-					<h1>Fazit</h1>
+					<h1>Bottom line</h1>
 					<img src="tumblr_mtsvk1hAg81stp6lqo1_400.gif" alt="" class="regret">
 
 				</section>
 
 				<section>
 					<ol>
-						<li>Frühe Version – Trotzdem Spass</li>
-						<li>Super einfach Test zu schreiben</li>
+						<li>Early version – yet enjoyable</li>
+						<li>Super easy to write test</li>
 						<li>Alternative: <a href="http://casperjs.org/">CasperJS</a></li>
 					</ol>
 
@@ -351,7 +351,7 @@ dalek tests/firstTests.js -b chrome</code></pre>
 					<h1>Exterminated!</h1>
 					<img src="tumblr_mwbtbjBVNy1s14fjso2_r2_400.gif" alt="" class="thanks">
 
-					<h2>Fragen?</h2>
+					<h2>Questions?</h2>
 
 
 				</section>
