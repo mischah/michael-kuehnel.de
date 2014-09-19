@@ -1,0 +1,15 @@
+.reveal section img.logo {
+	height: 120px;
+	margin: 0 20px 0 0;
+	border: none;
+	background: transparent;
+	box-shadow: none;
+}
+
+.floatContainer {
+	overflow: hidden;
+}
+
+.floatContainer >* {
+	/*float: left;*/
+}
