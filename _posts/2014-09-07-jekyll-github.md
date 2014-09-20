@@ -340,8 +340,6 @@ You could omit the use of the `disqus_identifier` in the snippet as well as in t
 
 > You'll be able to reference the same thread regardless of the URL where it is loaded.
 
----
-
 ## Bottom line
 
 Setting up a blog powered by Jekyll is pretty easy. Your blog will be up and running in a couple of hours if you’re happy with the default theme. As mentioned before, there will be a follow up post regarding GitHub specific stuff (Hosting, Plugins, etc.). So please return after you have adjust the default theme according to your needs :blush:
