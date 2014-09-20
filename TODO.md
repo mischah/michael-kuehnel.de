@@ -2,10 +2,6 @@
 
 ## Platform
 
-- Add presentations
-  - presentations/emmet/
-  - presentations/ios-apps-mit-webtechnologien-erstellen/
-  - etc.
 - Render tags in side
 - Pagination
 - Related posts
