@@ -4,6 +4,8 @@ title: Presentations
 permalink: /presentations/
 menu: true
 image: "/assets/img/dalek-slides-01.jpg"
+excerpt: "Slides of Presentations i’ve given. Mostly from the Webmontag Kassel. Topics: DalekJS, JavaScript Linting, jQuery .data() in conjunction with HTML5 Data attributes etc."
+tags: "Slides, presentation, presentations, DalekJS, Webmontag Kassel, JSLint, JSHint, ESLint, jQuery, .data(), HTML5, data, Coding Guidelines"
 ---
 
 <div class="float-container">
