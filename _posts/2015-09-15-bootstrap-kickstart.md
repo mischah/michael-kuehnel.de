@@ -4,7 +4,7 @@ lang: en_GB
 title:  "Bootstrap Kickstart – A boilerplate for scaffolding Bootstrap themes and sites"
 date:   2014-09-18 22:00:00
 category: Bootstrap
-tags: "Bootstrap, maintainability, boilerplate, skeleton, scaffolding, scaffold, theme, themes, kickstart, kickstarter, micromata, workflow"
+tags: "Bootstrap, Maintainability, Boilerplate, Skeleton, Scaffolding, Themes, Kickstart, Workflow"
 image: "/assets/img/bootstrap-kickstart-logo.png"
 excerpt: "I released our internal repository for creating Bootstrap Themes a few weeks ago on Github. So I guess it’s time to write a short summary what this little project is all about. Basically it’s about making the best out of Bootstrap when it comes to using, adapting and extending it. So, you got to continue reading if your are using Bootstrap."
 disqusIdentifier: 2014-09-07-bootstrap-kickstart

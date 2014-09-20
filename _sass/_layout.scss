@@ -293,6 +293,9 @@ h2.post-meta {
  */
 .post-header {
 	// margin-bottom: $spacing-unit;
+	.float-container {
+		margin-bottom: 0;
+	}
 }
 
 .post-title {

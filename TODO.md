@@ -2,7 +2,6 @@
 
 ## Platform
 
-- Render tags in side
 - Pagination
 - Related posts
 - Grunt Workflow
