@@ -367,3 +367,9 @@ h2.post-meta {
 	background-color: #fbfbfb;
 	font-size: 12px;
 }
+
+.rss-subscribe {
+	@include media-query($on-phone-portrait) {
+		display: none;
+	}
+}

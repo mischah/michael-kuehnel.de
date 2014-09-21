@@ -2,7 +2,6 @@
 
 ## Platform
 
-- Pagination
 - Grunt Workflow
 
 # Posts
@@ -18,7 +17,8 @@
   - Add social media metadata
   - Related posts
     - lsi: true
-    - 
+  - Pagination:
+    - http://jekyllrb.com/docs/pagination/
 - Bootstrap responsive mixins
   - http://codepen.io/ericrasch/pen/HzoEx?editors=110
   - http://www.thedotmack.com/2013/11/18/less-media-query-mixins/

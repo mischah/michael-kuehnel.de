@@ -204,9 +204,30 @@ blockquote {
 	margin-right: 20px;
 }
 
-.post-content .float-left {
+.float-right {
+	float: right;
+	margin-left: 20px;
+}
+
+.home .float-container {
+	margin-bottom: 0;
+	@include media-query($on-phone-portrait) {
+		float: none;
+		margin-bottom: 15px;
+	}
+}
+
+.post-content .float-left,
+.home .float-left {
 	@include media-query($on-phone-portrait) {
 		float: none;
 		margin-right: 0;
+	}
+}
+
+.home .float-right {
+	@include media-query($on-phone-portrait) {
+		float: none;
+		margin-left: 0;
 	}
 }
