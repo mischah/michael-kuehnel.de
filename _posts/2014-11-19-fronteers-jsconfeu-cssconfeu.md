@@ -28,7 +28,7 @@ I like the fact, that almost each and every talk was technical or at least had a
 
 ###Highlights
 
-My favorite talk which really blowed my mind was the one about **»CSS Performance Tooling« by Addy Osmani** ([@addyosmani](https://twitter.com/addyosmani)) which shows tools to handle the next level of performance optimization:
+My favorite talk which really blew my mind was the one about **»CSS Performance Tooling« by Addy Osmani** ([@addyosmani](https://twitter.com/addyosmani)) which shows tools to handle the next level of performance optimization:
 
 <div class="embed-wrapper">
   <iframe width="560" height="315" src="//www.youtube.com/embed/FEs2jgZBaQA?list=PL37ZVnwpeshHAnqFlTxhd0MIXWjLBbM3R&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -91,11 +91,11 @@ And **Arne Martin Aurlien** ([@arnemart](https://twitter.com/arnemart)) with the
 ----
 
 ##Fronteers
-Lastly I visited my first Fronteers Conference in Amsterdam in October. I wanted to attend a Fronteers Conference since I saw the Video from Lea Verous mind-blowing talk called »[CSS3 Secrets: 10 things you might not know about CSS3](http://vimeo.com/31719130)« in 2011. I’m so happy that I made it to #Fronteers14 even though I head to leave early and missed a few talks at the end of the second day. One could summarize the event with just a few words: Many amazing people come together in a beautiful city to meet in an extraordinary location to talk about amazing things. 
+Lastly I visited my first Fronteers Conference in Amsterdam in October. I wanted to attend a Fronteers Conference since I saw the Video from Lea Verous mind-blowing talk called »[CSS3 Secrets: 10 things you might not know about CSS3](http://vimeo.com/31719130)« in 2011. I’m so happy that I made it to #Fronteers14 even though I had to leave early and missed a few talks at the end of the second day. One could summarize the event with just a few words: Many amazing people come together in a beautiful city to meet in an extraordinary location to talk about amazing things. 
 
 ###Side notes:
 
-1. We spend the nights on a house boat which makes the Amsterdam experience authentic as it can get. :smile:
+1. We spent the nights on a house boat which makes the Amsterdam experience authentic as it can get. :smile:
 2. I produced my most [»effective« tweet](http://favstar.fm/users/mkuehnel/status/520519466174930944) so far during the conference. This is what happens when [@smashingmag](https://twitter.com/smashingmag/) retweets one of your Tweets. :open_mouth:
 3. I had the chance to talk to have a little chit-chat with Vitaly Friedman ([@smashingmag](https://twitter.com/smashingmag/)) for the first time and with Sara Soueidan ([@SaraSoueidan](https://twitter.com/SaraSoueidan)) for the second time. Definitely two of the friendliest fellows in the whole industry. :kissing_heart:
 
