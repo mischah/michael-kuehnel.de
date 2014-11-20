@@ -34,7 +34,7 @@ My favorite talk which really blowed my mind was the one about **»CSS Performan
   <iframe width="560" height="315" src="//www.youtube.com/embed/FEs2jgZBaQA?list=PL37ZVnwpeshHAnqFlTxhd0MIXWjLBbM3R&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
-But the other performance related talk named **»CSS and the critical path« from Patrick Hamman** ([@patrickhamann](https://twitter.com/patrickhamann)) was also excellent and explained the »problem« with the »critical path« aka »above the fold« CSS in great detail. The video seems to be missing on YoutTube.
+But the other performance related talk named **»CSS and the critical path« from Patrick Hamman** ([@patrickhamann](https://twitter.com/patrickhamann)) was also excellent and explained the »problem« with the »critical path« aka »above the fold« CSS in great detail. The video seems to be missing on YouTube.
 
 The third talk I like emphasize is the one about **»Styling and Animating Scalable Vector Graphics with CSS« from Sara Soueidan** ([@sarasoueidan](https://twitter.com/sarasoueidan)). It contains info about with the 6 (!) different SVG embedding techniques and the different approaches to style and animate SVGs among other useful things:
 
