@@ -6,7 +6,7 @@ date:   2014-11-19 20:00:00
 category: conferences
 tags: "Conferences, Fronteers, JSconf EU, CSSconf EU"
 image: "/assets/img/confs-2014.jpg"
-excerpt: "I like to visit as much different conferences as I can get. This Autumn I had the pleasure to visit three conferences for my first time. This Blogpost will not contain epic recaps of these. Instead I try to share the atmosphere, recommend a few talks and maybe it could help you to decide wether JSconf, CSSconf and Fronteers are the Conferences of your choice (in case you haven’t been there)."
+excerpt: "I like to visit as much different conferences as possible. This Autumn I had the pleasure to visit three conferences for my first time. This Blogpost will not contain epic recaps of these. Instead I try to describe what they are about, recommend a few talks and maybe it could help you to decide whether JSconf, CSSconf and Fronteers are the Conferences of your choice (in case you haven’t been there)."
 disqusIdentifier: 2014-11-16-conference-roundup
 ---
 
@@ -22,7 +22,7 @@ disqusIdentifier: 2014-11-16-conference-roundup
 
 ##CSSconf EU
 
-CSSconf EU was a small, one day single track Conference focused on (guess what) CSS which happend in September in Berlin. You might think something like »how did they managed to fill a whole day with just CSS topics?«. Let me tell you that the organizers ([@kriesse](https://twitter.com/kriesse) and [@frontdevde](https://twitter.com/frontdevde)) did an awesome job selecting 11 damn interesting talks from CSS secrets over performance (»the critical path« and tools) to one almost psychological talk. Make sure to visit [the website](http://2014.cssconf.eu/) to see the full schedule.
+CSSconf EU was a small, one day single track conference focused on (guess what) CSS which happened in September in Berlin. You might think something like »how did they managed to fill a whole day with just CSS topics?«. Let me tell you that the organizers ([@kriesse](https://twitter.com/kriesse) and [@frontdevde](https://twitter.com/frontdevde)) did an awesome job selecting 11 damn interesting talks from CSS secrets over performance (»the critical path« and tools) to one almost psychological talk. Make sure to visit [the website](http://2014.cssconf.eu/) to see the full schedule.
 
 I like the fact, that almost each and every talk was technical or at least had a practical orientation. There was definitely a lack of those purely inspiring / motivating kind of talks which was just perfect for me.
 
