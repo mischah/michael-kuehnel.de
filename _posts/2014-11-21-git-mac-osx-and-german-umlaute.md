@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en_GB
-title:  "Quick Tip: Git, Mac OS X und German Umlauts (Umlaute)"
+title:  "Quick Tip: Git, Mac OS X and German Umlauts (Umlaute)"
 date:   2014-11-21 20:00:00
 category: Git
 tags: "Quick Tip, Git, Mac OS X, Umlauts, Umlaute, UTF-8, Unicode"
