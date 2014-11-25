@@ -6,7 +6,11 @@
 
 # Posts
 
-- Setting up Jekyll
+- Bootstrap responsive mixins
+  - http://codepen.io/ericrasch/pen/HzoEx?editors=110
+  - http://www.thedotmack.com/2013/11/18/less-media-query-mixins/
+- DalekJS
+- Setting up Jekyll - Part II
   - https://help.github.com/articles/emoji-on-github-pages
   - https://pages.github.com/versions/
   - https://help.github.com/articles/repository-metadata-on-github-pages
@@ -19,6 +23,3 @@
     - lsi: true
   - Pagination:
     - http://jekyllrb.com/docs/pagination/
-- Bootstrap responsive mixins
-  - http://codepen.io/ericrasch/pen/HzoEx?editors=110
-  - http://www.thedotmack.com/2013/11/18/less-media-query-mixins/
