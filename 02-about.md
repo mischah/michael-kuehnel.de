@@ -15,7 +15,7 @@ menu: true
         <p>
           I’m working at <a href="http://www.micromata.de">Micromata</a> with
           amazing people building software based on web technologies. Besides
-          coding I enjoy hanging around with my wife, friends and animals.
+          coding I enjoy hanging around with my family, friends and animals.
           Not to forget that I’m organizing the »<a href="http://webmontag-kassel.de/">Web Montag Kassel</a>« together with <a href="https://twitter.com/nuzy_">@nuzy_</a> and
           <a href="https://twitter.com/n0dashes">@n0dashes</a>.
         </p>
