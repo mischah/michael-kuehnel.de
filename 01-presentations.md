@@ -5,7 +5,17 @@ permalink: /presentations/
 menu: true
 image: "/assets/img/dalek-slides-01.jpg"
 excerpt: "Slides of Presentations i’ve given. Mostly from the Webmontag Kassel. Topics: DalekJS, JavaScript Linting, jQuery .data() in conjunction with HTML5 Data attributes etc."
-tags: "Slides, presentation, presentations, DalekJS, Webmontag Kassel, JSLint, JSHint, ESLint, jQuery, .data(), HTML5, data, Coding Guidelines"
+tags: "Slides, presentation, presentations, DalekJS, Webmontag Kassel, JSLint, JSHint, ESLint, jQuery, .data(), HTML5, data, Coding Guidelines, Grunt, Bower, Yeoman, JS tooling, JavaScript Tooling"
+---
+
+## JavaScript Tooling
+
+Talk about a possible JavaScript toolchain including Grunt, Bower, Yeoman. From minifying and concatenating, over linting, documentation, code complexity measuring, dependency management, unit testing to easy scaffolding.
+
+The demo project is available at [GitHub](https://github.com/mischah/js-tooling-demo). Check the different Git Tags according to the levels within the presentation.
+
+[Slides](javascript-tooling-with-grunt-bower-yeoman) from an internal Tec-Talk at [Micromata](http://www.micromata.de) (December 2014).
+
 ---
 
 <div class="float-container">
