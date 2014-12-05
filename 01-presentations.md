@@ -10,11 +10,11 @@ tags: "Slides, presentation, presentations, DalekJS, Webmontag Kassel, JSLint, J
 
 ## JavaScript Tooling
 
-Talk about a possible JavaScript toolchain including Grunt, Bower, Yeoman. From minifying and concatenating, over linting, documentation, code complexity measuring, dependency management, unit testing to easy scaffolding.
+Talk about a JavaScript toolchain including Grunt, Bower, Yeoman. From minifying and concatenating, over linting, documentation, code complexity measuring, dependency management, unit testing to easy scaffolding.
 
 The demo project is available at [GitHub](https://github.com/mischah/js-tooling-demo). Check the different Git Tags according to the levels within the presentation.
 
-[Slides](javascript-tooling-with-grunt-bower-yeoman) from an internal Tec-Talk at [Micromata](http://www.micromata.de) (December 2014).
+[Slides](javascript-tooling-with-grunt-bower-yeoman) and [screen-recording](https://www.youtube.com/watch?v=l71VxjQo4RU) from an internal Tec-Talk at [Micromata](http://www.micromata.de) (December 2014).
 
 ---
 
