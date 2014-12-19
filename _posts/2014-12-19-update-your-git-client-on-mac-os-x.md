@@ -14,12 +14,10 @@ disqusIdentifier: 2014-12-19-update-your-git-client-on-mac-os-x
     <img src="{{page.image}}" alt="" class="float-left">
     <div>
         <p>
-          {{page.excerpt}}
+          I like to assist you In case you wonder how to react on yesterdays announcement of that critical Git security vulnerability. As said within this [post](https://github.com/blog/1938-vulnerability-announced-update-your-git-clients) on Githubs Blog it’s strongly recommended to update your Git clients as soon as possible. Here we go with a short instruction how to update in case you are using OS X.
         </p>
     </div>
 </div>
-
-I like to assist you In case you wonder how to react on yesterdays announcement of that critical Git security vulnerability. As said within this [post](https://github.com/blog/1938-vulnerability-announced-update-your-git-clients) on Githubs Blog it’s strongly recommended to update your Git clients as soon as possible. Here we go with a short instruction how to update in case you are using OS X.
 
 ## 1. If your already using Homebrew
 
