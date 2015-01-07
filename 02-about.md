@@ -25,7 +25,7 @@ menu: true
 
 ## Getting in touch
 
-Just hit me via [email](mailto:mail@michael-kuehnel.de) – Fingerprint: 3A7C284F814989C2 – [GPG Public Key](/files/3A7C284F814989C2.asc)
+Just hit me via [email](mailto:mail@michael-kuehnel.de) – Fingerprint: 3A7C284F814989C2 – [GPG Public Key](/pgp.asc)
 
 You can catch me, my sourcecode, my gists, my presentations, my bookmarks, my articles and my photos on the following sites and services:   
 [Twitter](http://twitter.com/mkuehnel),
