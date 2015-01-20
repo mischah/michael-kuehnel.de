@@ -49,6 +49,6 @@ If you likle to upgrade your projects `package.json` file just make use of the `
 npm install
 ```
 
-afterwards. And :boom: … you’re done.
+afterwards. And :boom: … all updates will land on your machine and you’re done.
 
 See the [README](https://www.npmjs.com/package/npm-check-updates) for more options.
