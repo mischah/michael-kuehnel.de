@@ -43,7 +43,7 @@ This will show you all possible updates without changing anything:
 Run 'npm-check-updates -u' to upgrade your package.json automatically
 ```
 
-If you likle to upgrade your projects `package.json` file just make use of the `-u` option as mentioned in the output above and fire:
+If you like to upgrade your projects `package.json` file just make use of the `-u` option as mentioned in the output above and fire:
 
 ```bash
 npm install
