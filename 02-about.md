@@ -38,7 +38,6 @@ You can catch me, my sourcecode, my gists, my presentations, my bookmarks, my ar
 [Keybase](https://keybase.io/mischah),
 [Google+](https://plus.google.com/112773480345599843234/posts),
 [Xing](https://www.xing.com/profile/Michael_Kuehnel),
-[facebook](http://www.facebook.com/kuehnel.michael),
 [Instagram](http://instagram.com/mischah),
 [Webkrauts](http://www.webkrauts.de/autor/michael-kuehnel) … but please don’t try to stalk the hell out of me (•◡•)
 
