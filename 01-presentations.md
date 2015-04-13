@@ -4,8 +4,16 @@ title: Presentations
 permalink: /presentations/
 menu: true
 image: "/assets/img/dalek-slides-01.jpg"
-excerpt: "Slides of Presentations i’ve given. Mostly from the Webmontag Kassel. Topics: DalekJS, JavaScript Linting, jQuery .data() in conjunction with HTML5 Data attributes etc."
-tags: "Slides, presentation, presentations, DalekJS, Webmontag Kassel, JSLint, JSHint, ESLint, jQuery, .data(), HTML5, data, Coding Guidelines, Grunt, Bower, Yeoman, JS tooling, JavaScript Tooling"
+excerpt: "Slides of Presentations i’ve given. Mostly from the Webmontag Kassel. Topics: Package Management, JavaScript Tooling, jQuery .data() in conjunction with HTML5 Data attributes etc."
+tags: "Slides, presentation, presentations, DalekJS, Webmontag Kassel, JSLint, JSHint, ESLint, jQuery, .data(), HTML5, data, Coding Guidelines, Grunt, Bower, Yeoman, JS tooling, JavaScript Tooling, Package Management, npm"
+---
+
+## Package Management für das Frontend
+
+Präsentation über Package Management mit Bower und npm. Gemeinsamkeiten, Unterschiede, Einsatzzweck und die potentielle Zukunft des Package Management für das Frontend.
+
+[Slides](packagemanagement-fuer-das-frontend) vom 8. Webmontag in Kassel Kassel (April 2015)
+
 ---
 
 ## JavaScript Tooling

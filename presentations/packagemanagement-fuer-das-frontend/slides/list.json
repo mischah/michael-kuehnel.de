@@ -1,0 +1,30 @@
+[
+    "index.md",
+    "about-me.md",
+    [
+        {
+            "filename": "package-was.md",
+            "attr": {
+                "data-background": "lion-king-confused-huh.gif"
+            }
+        },
+        "fremder-code.md",
+        "code-organisation.md",
+        "andere-welten.md"
+    ],
+    "npm-und-bower.md",
+    [
+        "bower-demo.md",
+        "bower-demo-listing.md"
+    ],
+    "gemeinsamkeiten.md",
+    [
+        "unterschiede.md",
+        "struktur.md",
+        "dateitypen.md",
+        "quellen.md"
+    ],
+    "nutzungsszenario.md",
+    "zukunftsperspektive.md",
+    "the-end.md"
+]
