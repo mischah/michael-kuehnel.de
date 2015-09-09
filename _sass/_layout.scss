@@ -351,6 +351,7 @@ h2.post-meta {
 		}
 		@include media-query($on-phone-portrait) {
 			width: auto;
+			margin-bottom: 15px;
 		}
 	}
 
