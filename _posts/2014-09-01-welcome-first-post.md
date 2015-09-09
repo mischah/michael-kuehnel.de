@@ -70,7 +70,7 @@ There will be a follow up post describing a few key points on setting up Jekyll.
 **Last words about the Jekyll community:**  
 The maintainer and the community seems to be super friendly. I was happy about the communication as well as about the speed of merging my tiny [Pull request](https://github.com/jekyll/jekyll/pull/2862) regarding an iOS orientation issue within the default theme.
 
-##tl;dr
+## tl;dr
 
 I love to share my knowledge and doing this with the help of Jekyll and Github from now on. Enjoy my blog : ]
 

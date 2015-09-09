@@ -31,7 +31,7 @@ That’s easy to fix … but in a different way depending on your OS X version :
 
 Since OS X 10.9.x `precomposeunicode` has to be set to `false`. This should be defined in your global `.gitconfig` and if needed within your repository as well.
 
-##Global
+## Global
 
 You can choose whether to add the following to `~/.gitconfig` via your file system:
 

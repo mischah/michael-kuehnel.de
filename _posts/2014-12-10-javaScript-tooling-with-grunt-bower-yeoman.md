@@ -29,15 +29,15 @@ Have fun :octocat:
 ## Level 1 – Build Tools
 
 * [Grunt](http://gruntjs.com) (Task runner)
-	* Based on files
-	* Configuration over code
-	* Great API for writing own Tasks
-	* probably a lower learning curve
+  * Based on files
+  * Configuration over code
+  * Great API for writing own Tasks
+  * probably a lower learning curve
 * [Gulp](http://gulpjs.com) (Streaming build system)
-	* Based on streams
-	* Code over configuration
-	* Easy API setup your tasks 
-	* Blazingly fast
+  * Based on streams
+  * Code over configuration
+  * Easy API setup your tasks 
+  * Blazingly fast
 
 Further information about the differences are explained within this supreme [slide deck](https://speakerdeck.com/addyosmani/front-end-tooling-workflows).
 
@@ -112,22 +112,22 @@ JavaScript Linting = Quality Assurance.
 Needed to:
 
 * Prevent syntax error
-	* eg. missing semicolons 
+  * eg. missing semicolons 
 * Prevent logical errors / structural problems
-	* eg. unreachable code
+  * eg. unreachable code
 * Force adherence to coding conventions
-	* eg. UpperCamelCase for constructors
+  * eg. UpperCamelCase for constructors
 
 There are two main »competitors« when it comes to Linting:
 
 * [JSHint](http://jshint.com)
-	* Larger eco-system (editor plugins)
-	* Defaults are easier to handle
-	* Less config needed (caused by less rules)
+  * Larger eco-system (editor plugins)
+  * Defaults are easier to handle
+  * Less config needed (caused by less rules)
 * [ESLint](http://eslint.org)
-	* More rules (especially stylistic issues) eg. »trailing whitespace«
-	* More flexibility (configurable → warnings vs. errors)
-	* Faster development 
+  * More rules (especially stylistic issues) eg. »trailing whitespace«
+  * More flexibility (configurable → warnings vs. errors)
+  * Faster development 
 
 Both configurable via dot files within the project (team or company standards).
 
@@ -153,9 +153,9 @@ Documentation via DocBlock comments as known from Javadoc.
 The most used tools:
 
 * [JSDoc](http://usejsdoc.org)
-	* [Grunt task](https://github.com/krampstudio/grunt-jsdoc)
+  * [Grunt task](https://github.com/krampstudio/grunt-jsdoc)
 * [YUIDoc](https://yui.github.io/yuidoc/)
-	* [Grunt task](https://github.com/krampstudio/grunt-jsdoc)
+  * [Grunt task](https://github.com/krampstudio/grunt-jsdoc)
 
 We are going to use JSDoc over here.
 
@@ -203,15 +203,15 @@ Node related stuff belongs to [npm](https://www.npmjs.org/) whereas frontend pac
 Bower has many analogies to npm (`package.json` vs. `bower.json`), but:
 
 * flat file structure for dependencies
-	* every dependency in one version in the project!
+  * every dependency in one version in the project!
 * you can define the location of your dependencies via `.bowerrc` 
 
 ```javascript
 {
-	"directory": "libs"
+  "directory": "libs"
 }
 ```
-		
+    
 #### Prerequisites
 
 * Download and install [Node.js](http://nodejs.org/) 
@@ -245,20 +245,20 @@ bower install bootstrap --save
 If the framework of your choice isn’t handling the dependencies of your modules:
 
 * [RequireJS](http://www.requirejs.org)
-	* Implementation of the »Asynchronous Module Definition« (AMD) 
-	* Related: [Combines scripts for optimal browser delivery](https://github.com/jrburke/r.js)
+  * Implementation of the »Asynchronous Module Definition« (AMD) 
+  * Related: [Combines scripts for optimal browser delivery](https://github.com/jrburke/r.js)
 * [Browserify](http://browserify.org)
-	* `require('modules')` in the browser (CommonJS)  
-	* Related: [npm modules that work with Browserify](http://browserifysearch.org)
+  * `require('modules')` in the browser (CommonJS)  
+  * Related: [npm modules that work with Browserify](http://browserifysearch.org)
 * [ES6 Module Loader](http://www.sitepoint.com/understanding-es6-modules/) (via Polyfill)
-	* [ES6 Module Loader Polyfill](https://github.com/ModuleLoader/es6-module-loader)
-	* [ES6 Module Transpiler](https://github.com/esnext/es6-module-transpiler)
+  * [ES6 Module Loader Polyfill](https://github.com/ModuleLoader/es6-module-loader)
+  * [ES6 Module Transpiler](https://github.com/esnext/es6-module-transpiler)
 
 They all have their own pitfalls. Choose wisely (°ロ°)☝
 
 ---
 
-##Appendix 
+## Appendix 
 
 
 ### a. Unit Testing
@@ -341,9 +341,9 @@ yo angular [app-name]
 ### c. Release management with help of grunt
 
 * Generate Changelog from Git commit messages:
-	* <https://github.com/ericmatthys/grunt-changelog>
+  * <https://github.com/ericmatthys/grunt-changelog>
 * Bump version according to [semver](http://semver-ftw.org/):
-	* <https://github.com/vojtajina/grunt-bump>
+  * <https://github.com/vojtajina/grunt-bump>
 
 See [Bootstrap Kickstart](https://github.com/micromata/bootstrap-kickstart).
 
@@ -352,17 +352,17 @@ See [Bootstrap Kickstart](https://github.com/micromata/bootstrap-kickstart).
 ### d. Grunt performance measuring and boosting
 
 * [time-grunt](https://github.com/sindresorhus/time-grunt)
-	* Display the elapsed execution time of grunt tasks
-	* Used within this repo.
+  * Display the elapsed execution time of grunt tasks
+  * Used within this repo.
 * [load-grunt-tasks](https://github.com/sindresorhus/load-grunt-tasks)
-	* Load multiple grunt tasks using globbing patterns
-	* Increases performance and save lines of code within your Gruntfile
-	* Used within this repo.
+  * Load multiple grunt tasks using globbing patterns
+  * Increases performance and save lines of code within your Gruntfile
+  * Used within this repo.
 * [grunt-newer](https://github.com/tschaub/grunt-newer)
-	* Configure Grunt tasks to run with newer files only.
-	* Used for the watch tasks in this repo.
+  * Configure Grunt tasks to run with newer files only.
+  * Used for the watch tasks in this repo.
 * [grunt-concurrent](https://github.com/sindresorhus/grunt-concurrent)
-	* Run grunt tasks simultaneously
+  * Run grunt tasks simultaneously
 
 ---
 
