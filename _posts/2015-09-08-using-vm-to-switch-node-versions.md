@@ -59,7 +59,7 @@ $ brew install nvm
 
 Please have a look at <https://github.com/creationix/nvm> in case you would like to do a manual install.
 
-Either way you have to add a few lines to your `~/.bash_profile`, `~/.zshrc` or `~/.profile`. In case of the homebre installation it is:
+Either way you have to add a few lines to your `~/.bash_profile`, `~/.zshrc` or `~/.profile`. In case of the homebrew installation it is:
 
 ```bash
 export NVM_DIR=~/.nvm
@@ -68,7 +68,7 @@ source $(brew --prefix nvm)/nvm.sh
 
 # Using nvm
 
-To download, compile, and install the latest v0.12.x release of node, do this:
+To download, compile, and install the (currently) latest v4.0.x release of node, do this:
 
 ```bash
 nvm install 4.0
@@ -104,7 +104,7 @@ You could place a `.nvmrc` file in your home directory to define your prefered v
 0.40
 ```
 
-This can be overidden by placing other `.nvmrc` files in project root directories.
+This can be overidden by placing other `.nvmrc` files in your project root directories.
 
 ---
 
