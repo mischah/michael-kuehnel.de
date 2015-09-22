@@ -10,6 +10,20 @@ excerpt: "Sure, using umlauts or other special characters within filenames is fa
 disqusIdentifier: 2014-11-20-git-mac-osx-and-german-umlaute
 ---
 
+## Update from September 22, 2015
+
+In the current version of Mac OS X (10.10.5) with the latest version of Git (2.5.2) `precomposeunicode` has to be set to  `true` :persevere:
+
+```bash
+[core]
+    # Git and the Umlaut problem on Mac OS X
+    # Prevent showing files which filenames contains umlauts as untracked
+    # Needs to be `false` since OS X 10.9.x
+    precomposeunicode = true
+```
+
+---
+
 <div class="float-container">
     <img src="{{page.image}}" alt="" class="float-left">
     <div>
