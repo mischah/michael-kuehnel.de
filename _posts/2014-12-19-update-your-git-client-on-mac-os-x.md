@@ -22,7 +22,7 @@ disqusIdentifier: 2014-12-19-update-your-git-client-on-mac-os-x
 ## 1. If you’re already using Homebrew
 
 ```bash
-brew update && brew upgrade git` or `brew update && brew install git`
+`brew update && brew upgrade git` or `brew update && brew install git`
 ```
 
 Entering `git --version` should echo → `git version 2.2.1` afterwards.
