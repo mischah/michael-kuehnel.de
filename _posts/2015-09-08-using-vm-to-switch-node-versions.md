@@ -13,7 +13,7 @@ disqusIdentifier: 2015-09-08-using-vm-to-switch-node-versions
 ## Update from November 6, 2015
 
 * Add note about handling of [globally installed packages](#globally-installed-packages)
-* Add info about setting a default Node version [via \`nvm alias\](#via-nvm-alias)
+* Add info about setting a default Node version [via \`nvm alias\`](#via-nvm-alias)
 
 ---
 
