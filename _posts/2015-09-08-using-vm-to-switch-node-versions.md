@@ -10,6 +10,13 @@ excerpt: "Sure you can just use homebrew to update your Node.js installation whe
 disqusIdentifier: 2015-09-08-using-vm-to-switch-node-versions
 ---
 
+## Update from November 6, 2015
+
+* Add note about handling of [globally installed packages](#globally-installed-packages)
+* Add info about setting a default Node version [via \`nvm alias\](#via-nvm-alias)
+
+---
+
 <div class="float-container">
     <img src="{{page.image}}" alt="" class="float-left">
     <div>
@@ -71,7 +78,7 @@ source $(brew --prefix nvm)/nvm.sh
 To download, compile, and install the (currently) latest v4.0.x release of node, do this:
 
 ```bash
-nvm install 4.0
+nvm install 4
 ```
 
 Let’s install the latest v.0.12.x release in addition:
@@ -84,11 +91,11 @@ You will use the latest installed version automatically after installation.
 Switching version is easy as:
 
 ```bash
-nvm use 0.4
+nvm use 4
 ```
 
 
-In place of a version pointer like "4.0", you can use the special default aliases like "stable" and "unstable":
+In place of a version pointer like "4", you can use the special default aliases like "stable" and "unstable":
 
 ```bash
 nvm install stable
@@ -96,17 +103,34 @@ nvm install unstable
 nvm use stable
 ```
 
-## Version settings via config file
+## Setting a default version
 
-You could place a `.nvmrc` file in your home directory to define your prefered version globally. For example:
+You need to set a default version if you dont want to be surprised by switched versions with every opened Terminal windows/tabs. There are the two following ways to accomplish this.
+
+### Via config file
+
+You can place a `.nvmrc` file in your home directory to define your prefered version globally. For example:
 
 ```bash
-0.40
+4
 ```
 
 This can be overidden by placing other `.nvmrc` files in your project root directories.
 
----
+### Via nvm alias
+
+Alternatively you can add an alias with `nvm alias <name> <version> `:
+
+```bash
+$ nvm alias default 4
+default -> 4 (-> v4.2.1)
+```
+
+Enter `nvm --help` to see how to handle aliases.
+
+## Globally installed packages
+
+Please note that you have to install global packages with every node version your are using with nvm.
 
 I guess that’s all you need to know to start using nvm. 
 Make sure to checked out the [project on Github](https://github.com/creationix/nvm) in case you like to dig deeper.
