@@ -10,12 +10,6 @@ excerpt: "It might be a »no-brainer« in case you are working within the Node.j
 disqusIdentifier: 2015-01-20-check-updates-of-your-node-modules
 ---
 
-## Update from November 6, 2015
-
-I just encountered that there is an interactive CLI App to check for outdated, incorrect, and unused dependencies which seems to be a pretty neat alternative to »npm-check-updates«. It’s called »[npm-check](https://github.com/dylang/npm-check)« and seems to be pretty convenient.
-
----
-
 <div class="float-container">
     <img src="{{page.image}}" alt="" class="float-left">
     <div>
