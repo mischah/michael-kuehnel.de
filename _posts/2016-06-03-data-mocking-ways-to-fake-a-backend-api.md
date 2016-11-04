@@ -9,6 +9,10 @@ excerpt: "What are the advantages of working with fake data in projects with a c
 disqusIdentifier: 2016-06-03-data-mocking-ways-to-fake-a-backend-api
 ---
 
+*Eine deutsche Version des Artikels findet ihr im [Micromata Blog](https://labs.micromata.de/blog/fake-backend.html).*
+
+---
+
 Today we mostly have a loose coupling between the frontend and the backend of our web applications. It might be even useful to handle the separate parts as separate projects. Think about the backend as the provider of an RESTful API which has a totally different (hopefully semantic) versioning than the frontend. This offers much more flexibilitylty by being able to deploy only the frontend to production or by using the same backend for a different frontend with a totally different tech stack (eg. native apps).
 
 So in development we have different people working on the frontend and on the backend. The backend team needs to make sure the content the API is providing is sane, whereas the frontend doesn’t care about the content: it just needs dummy data in the correct structure. So these teams only have to talk about and agree on JSON structures before they can work independently on their part.
