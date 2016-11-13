@@ -295,13 +295,13 @@ Developers aren’t lazy per se. But we all like to dispense with stupid and rep
 
 The following tools could help you to generate JSON files for fake backend:
 
-+ https://github.com/danibram/mocker-data-generator/
-+ http://www.json-generator.com/
++ <https://github.com/danibram/mocker-data-generator>
++ <http://www.json-generator.com>
 
 ### Dummy data generators
 
 Feel free to use one of these excellent node modules if you prefer to build the responses of your fake backend programmatically:
 
-+ https://github.com/Marak/faker.js
-+ https://github.com/boo1ean/casual
-+ https://github.com/chancejs/chancejs/
++ <https://github.com/Marak/faker.js>
++ <https://github.com/boo1ean/casual>
++ <https://github.com/chancejs/chancejs>
