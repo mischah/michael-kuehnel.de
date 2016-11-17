@@ -5,7 +5,7 @@ title:  "Data mocking – Ways to fake a backend (API)"
 date:   2016-11-04 00:10:00
 category: API
 tags: "Data, Mocking, Rest, JSON, API, Frontend, Backend, Fake, Testing"
-excerpt: "What are the advantages of working with fake data in projects with a clean seperation between the frontend and the backend?  How can we mock our backend with minimum effort? This blogpost will answer this questions and explains different methods of providing data via a dummy backend."
+excerpt: "What are the advantages of working with fake data in projects with a clean separation between the frontend and the backend?  How can we mock our backend with minimum effort? This blogpost will answer this questions and explains different methods of providing data via a dummy backend."
 disqusIdentifier: 2016-06-03-data-mocking-ways-to-fake-a-backend-api
 ---
 
@@ -13,7 +13,7 @@ disqusIdentifier: 2016-06-03-data-mocking-ways-to-fake-a-backend-api
 
 ---
 
-Today we mostly have a loose coupling between the frontend and the backend of our web applications. It might be even useful to handle the separate parts as separate projects. Think about the backend as the provider of an RESTful API which has a totally different (hopefully semantic) versioning than the frontend. This offers much more flexibilitylty by being able to deploy only the frontend to production or by using the same backend for a different frontend with a totally different tech stack (eg. native apps).
+Today we mostly have a loose coupling between the frontend and the backend of our web applications. It might be even useful to handle the separate parts as separate projects. Think about the backend as the provider of an RESTful API which has a totally different (hopefully semantic) versioning than the frontend. This offers much more flexibility by being able to deploy only the frontend to production or by using the same backend for a different frontend with a totally different tech stack (eg. native apps).
 
 So in development we have different people working on the frontend and on the backend. The backend team needs to make sure the content the API is providing is sane, whereas the frontend doesn’t care about the content: it just needs dummy data in the correct structure. So these teams only have to talk about and agree on JSON structures before they can work independently on their part.
 
@@ -51,7 +51,7 @@ Having those files in your file system has the big advantage, that the dummy dat
 + Can’t test handling errors (besides 404)
 + Differences between the fake and the real backend
 
-This might work out for a webapp or website which just loads a little data via Ajax. But other than that the downsides will outweigh the simplicity in most cases. The biggest disadvantages are the differences between your fake backend and the real backend in production. This goes from different URLs (including a whole different structure) to different HTTP headers.
+This might work out for a web app or website which just loads a little data via Ajax. But other than that the downsides will outweigh the simplicity in most cases. The biggest disadvantages are the differences between your fake backend and the real backend in production. This goes from different URLs (including a whole different structure) to different HTTP headers.
 
 ## Online mocking services
 
@@ -250,7 +250,7 @@ The configuration object described in detail:
 
 People who think that this looks daunting can create a config like this easily and interactively with the help of this [Yeoman generator](https://github.com/micromata/generator-http-fake-backend) which comes with a subgenerator which guides through the configuration:
 
-![yeoman](https://d17oy1vhnax1f7.cloudfront.net/items/170V1V1a3H1q1C0g3d3y/demo.gif)
+![yeoman](https://cloud.githubusercontent.com/assets/441011/19894056/ce7c4ece-a04b-11e6-9cc0-a30429d98b6f.gif)
 
 ### It offers even more flexibility
 
@@ -281,7 +281,7 @@ It also optionally restarts the server when JSON or config files are changed. Ju
 
 ### Workflow integration
 
-Starting the server is as easy as firing `npm run start:dev` during development or `npm start` in a Continous Integration environment. No matter if you are using npm run scripts or a workflow based on a taskrunner to build your frontend.
+Starting the server is as easy as firing `npm run start:dev` during development or `npm start` in a Continuous Integration environment. No matter if you are using npm run scripts or a workflow based on a taskrunner to build your frontend.
 
 ### Getting started
 
