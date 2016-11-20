@@ -23,8 +23,8 @@ jekyll serve --watch --drafts
 bundle exec jekyll serve
 ```
 ```
-bundle exec jekyll serve --watch
+bundle exec jekyll serve --watch --incremental
 ```
 ```
-bundle exec jekyll serve --watch --drafts
+bundle exec jekyll serve --watch --drafts --incremental
 ```
