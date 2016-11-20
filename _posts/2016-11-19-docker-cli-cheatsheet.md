@@ -53,6 +53,9 @@ docker rm containerName
 
 # Stop and remove container
 docker rm -f containerName
+
+# Remove all exited containers
+docker rm -v $(docker ps -a -q -f status=exited)
 ```
 
 ## Running commands in new containers
@@ -87,6 +90,9 @@ docker images
 
 ```bash
 docker rmi imageName
+
+# Remove unwanted dangling images
+docker rmi $(docker images -f "dangling=true" -q)
 ```
 
 ## Searching for images 
