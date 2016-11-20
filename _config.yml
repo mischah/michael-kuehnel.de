@@ -3,12 +3,12 @@ title: Michael Kühnel // Front-End Developer // Kassel
 email: mail@michael-kuehnel.de
 description: > # this means to ignore newlines until "keywords:"
   Michael Kühnel, Front-End Developer from Kassel, Germany – blogging about
-  Markup, CSS, JavaScript and related stuff. Sometimes in English and sometimes
+  markup, CSS, JavaScript, tooling and related stuff. Sometimes in English and sometimes
   in German.
 keywords: >
   Michael Kühnel, Frontend Developer, Front-End Developer,
   Front-End Entwickler, Frontend Entwickler, Kassel, blog, blogging, JavaScript,
-  CSS, Markup, HTML
+  CSS, Markup, HTML, Tooling
 baseurl: ""
 url: "http://michael-kuehnel.de"
 image: "/assets/img/michael-kuehnel.jpg"
