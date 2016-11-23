@@ -273,9 +273,18 @@ body {
 	}
 }
 p.post-meta,
-h2.post-meta {
+h2.post-meta,
+h3.post-meta {
 	line-height: $base-line-height;
 	margin: 0;
+}
+
+.post-header .float-container:last-child {
+	margin-bottom: 14px;
+}
+
+.reading-time {
+	margin-left: 3px;
 }
 
 .post-link {
