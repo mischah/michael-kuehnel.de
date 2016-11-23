@@ -374,3 +374,12 @@ h2.post-meta {
 		display: none;
 	}
 }
+
+/**
+ * Avatar
+ */
+
+.float-container > .avatar {
+	float: left;
+	margin-right: 20px;
+}

@@ -24,3 +24,4 @@ kramdown:
     disable : true
 gems:
   - jemoji
+  - jekyll-avatar

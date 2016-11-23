@@ -15,7 +15,8 @@
   - https://help.github.com/articles/repository-metadata-on-github-pages
   - https://help.github.com/articles/using-jekyll-with-pages#keeping-jekyll-up-to-date
   - https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
-    -`bundle updatew`
+    -`bundle update` // updates versions of dependencies of github-pages gem
+    - // current version of github page: https://rubygems.org/gems/github-pages
   - Custom Domain
     - https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider
     - https://help.github.com/articles/adding-a-cname-file-to-your-repository
