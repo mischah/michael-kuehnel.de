@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "keywords:"
 keywords: >
   Michael Kühnel, Frontend Developer, Front-End Developer,
   Front-End Entwickler, Frontend Entwickler, Kassel, blog, blogging, JavaScript,
-  CSS, Markup, HTML, Tooling
+  CSS, Markup, HTML, Tooling, OSS
 baseurl: ""
 url: "http://michael-kuehnel.de"
 image: "/assets/img/michael-kuehnel.jpg"
