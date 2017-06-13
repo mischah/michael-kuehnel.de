@@ -14,7 +14,7 @@ disqusIdentifier: 2017-06-13-using-lodash-per-method-packages-with-angular-2-and
 
 I didn’t get how to import per method packages and how to include the types in my project.
 
-Therefore I encountered on or another of the following error Messages:
+Therefore I encountered one or another of the following error Messages:
 
 ```bash
 ERROR in /path/to/project/src/app/my.component.ts (3,10): Module '"/path/to/project/node_modules/@types/lodash/index"' has no exported member 'lodash'.
