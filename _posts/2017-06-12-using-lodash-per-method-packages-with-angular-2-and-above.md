@@ -16,19 +16,19 @@ I didn’t get how to import per method packages and how to include the types in
 
 Therefore I encountered on or another of the following error Messages:
 
-```
+```bash
 ERROR in /path/to/project/src/app/my.component.ts (3,10): Module '"/path/to/project/node_modules/@types/lodash/index"' has no exported member 'lodash'.
 ```
 
-```
+```bash
 ERROR in /path/to/project/src/app/my.component.ts (3,22): Module '"/path/to/project/node_modules/@types/lodash.drop/index"' resolves to a non-module entity and cannot be imported using this construct.
 ```
 
-```
+```bash
 ERROR in /path/to/project/src/app/my.component.ts (71,24): Cannot find name 'dropRight'.
 ```
 
-```
+```bash
 ERROR in Cannot read property 'getLineAndCharacterOfPosition' of undefined
 ```
 
@@ -50,7 +50,7 @@ npm install --save @types/lodash.dropright
 
 Add just the one and only item to the `types` array in `src/tsconfig.app.json`:
 
-```json
+```javascript
 {
   "compilerOptions": {
     "types": [
