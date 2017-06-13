@@ -6,7 +6,7 @@ date:   2017-06-13 12:00:00
 category: Angular
 tags: "Angular, Lodash, Quick Tip, npm, types, import"
 image: ""
-excerpt: "tbd."
+excerpt: "I didn’t get how to import per method packages and how to include the types in my project. It’s not that hard but I invested some time to get this straight. Hope this little tip can save you half an hour :blush:"
 disqusIdentifier: 2017-06-13-using-lodash-per-method-packages-with-angular-2-and-above
 ---
 
