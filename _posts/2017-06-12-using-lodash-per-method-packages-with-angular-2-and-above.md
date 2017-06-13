@@ -2,7 +2,7 @@
 layout: post
 lang: en_GB
 title:  "Quick Tip: Using Lodash per method packages with Angular (2 and above)"
-date:   2017-06-13 12:00:00
+date:   2017-06-12 11:00:00
 category: Angular
 tags: "Angular, Lodash, Quick Tip, npm, types, import"
 image: ""
