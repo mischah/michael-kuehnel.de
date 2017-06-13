@@ -6,7 +6,7 @@ date:   2017-06-12 11:00:00
 category: Angular
 tags: "Angular, Lodash, Quick Tip, npm, types, import"
 image: ""
-excerpt: "I didn’t get how to import per method packages and how to include the types in my project. It’s not that hard but I invested some time to get this straight. Hope this little tip can save you half an hour :blush:"
+excerpt: "I didn’t get how to import per method packages and how to include the types in my project. It’s not that hard but I invested some time to get this straight. Hope this little tip can save you half an hour."
 disqusIdentifier: 2017-06-13-using-lodash-per-method-packages-with-angular-2-and-above
 ---
 
@@ -32,7 +32,7 @@ ERROR in /path/to/project/src/app/my.component.ts (71,24): Cannot find name 'dro
 ERROR in Cannot read property 'getLineAndCharacterOfPosition' of undefined
 ```
 
-It’ actually pretty much straight forward to fix these errors like described below
+It’ actually pretty much straight forward to fix these errors like described below.
 
 ## Installing Lodash per method packages
 
@@ -75,4 +75,4 @@ visiblePages = dropRight(totalPages, PagesAboveVisible);
 
 ----
 
-Looks easy, but I invested some time to get this straight. Hope this little tip can save you half an hour :blush:
+Looks easy, but I invested some time to get this straight. Hope this little tip can save you half an hour. :blush:
