@@ -25,11 +25,11 @@ disqusIdentifier: 2014-12-19-update-your-git-client-on-mac-os-x
 `brew update && brew upgrade git` or `brew update && brew install git`
 ```
 
-Entering `git --version` should echo → `git version 2.2.1` afterwards.
+Entering `git --version` should echo → `git version 2.14.1` afterwards.
 
 In case it’s saying something like `Git 1.9.x (Apple)` instead you have to add `export PATH=/usr/local/bin:$PATH` to your environment variables via `.bashrc` or however you handle that. See [my dotfiles](https://github.com/mischah/dotfiles/commit/44fae96e96b5721c0e349fafdc1172e78278979c).
 
-After restarting your terminal  `git --version` should print → `git version 2.2.1`.
+After restarting your terminal  `git --version` should print → `git version 2.14.1`.
 
 And you’re safe using Git via the command line.
 
