@@ -11,7 +11,10 @@ disqusIdentifier: 2017-11-14-jsconf-budapest-2017
 ---
 
 <div class="float-container">
-    <img src="{{page.image}}" alt="" class="float-left">
+    <figure class="float-left">
+      <img src="{{page.image}}" alt="">
+      <figcaption>Picture by <a href="https://twitter.com/verpixelt">Kevin Lorenz</a></figcaption>
+    </figure>
     <div>
         <p>
           {{page.excerpt}}
@@ -50,7 +53,10 @@ I’d like summarize and highlight the following three talks.
 
 The topic of this [talk](https://bodil.lol/join-us-now/#0) was Open Source Software. From their beginnings, through licenses to todays relevance. Whether you interpret Open Source and the Free Software movement as socialism, pragmatism or art: The idea itself and spreading is as important as it ever was. Then it has the ability to empower us. Making source code available to the general public doesn’t only mean that we can take influence, can fix and can improve software. It builds communities of developers and user which weren’t imaginable. First and foremost it enables us to learn.
 
-![](/assets/img/jsconfbp2017/oss.jpg)
+<figure>
+  <img src="/assets/img/jsconfbp2017/oss.jpg">
+  <figcaption>Picture by <a href="https://twitter.com/mkuehnel">myself</a></figcaption>
+</figure>
 
 #### [Vaidehi Joshi](https://twitter.com/vaidehijoshi) – Goldilocks and the three Code Reviews
 
@@ -67,7 +73,11 @@ Plus it showed concrete opportunities for action to fix these problems:
 * iterate: only iteration can improve the process
 * start the conversation
 
-![](/assets/img/jsconfbp2017/reviews.jpg)
+<figure>
+  <img src="/assets/img/jsconfbp2017/reviews.jpg">
+  <figcaption>Picture by <a href="https://twitter.com/mkuehnel">myself</a></figcaption>
+</figure>
+
 
 #### [Madeleine Neumann](https://twitter.com/maggysche) – Impostor syndrome - am I suffering enough to talk about it?
 
@@ -92,7 +102,10 @@ An excellent [talk](https://speakerdeck.com/nybblr/async-patterns-to-scale-your-
 
 Jonathan came with recipes based on »Async IIFEs«, »Web Worker clusters« und »SharedArrayBuffers« to solve the concurrency challenges elegantly.
 
-![](/assets/img/jsconfbp2017/concurrency.jpg)
+<figure>
+  <img src="/assets/img/jsconfbp2017/concurrency.jpg">
+  <figcaption>Picture by <a href="https://twitter.com/mkuehnel">myself</a></figcaption>
+</figure>
 
 #### [Eirik Vullum](https://twitter.com/eiriklv) – JavaScript Metaprogramming - ES6 Proxy Use and Abuse
 

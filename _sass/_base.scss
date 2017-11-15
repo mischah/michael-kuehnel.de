@@ -68,6 +68,9 @@ figure > img {
 
 figcaption {
 	font-size: $small-font-size;
+	line-height: $small-font-size;
+	font-style: italic;
+	margin-top: 5px;
 }
 
 

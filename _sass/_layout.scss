@@ -353,8 +353,10 @@ h3.post-meta {
 		}
 	}
 
-	img.float-left {
+	img.float-left,
+	figure.float-left{
 		width: 280px;
+		margin-bottom: 0;
 		@include media-query($on-phone) {
 			width: 210px;
 		}
