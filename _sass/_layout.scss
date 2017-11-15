@@ -346,10 +346,10 @@ h3.post-meta {
 	}
 
 	h4 {
-		font-size: 20px;
+		font-size: 22px;
 
 		@include media-query($on-laptop) {
-			font-size: 18px;
+			font-size: 20px;
 		}
 	}
 
