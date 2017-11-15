@@ -36,7 +36,7 @@ The 2017 edition was the first JSConf Budapest for me after visiting JSConf EU i
 
 The event location was a historic cinema in the heart of the jewish quarter in the center of the city. A monumental location. The only thing I kinda missed were more places to chill. 
 
-## The talks
+## The schedule
 
 It was a two day, single track conference. So there was no need to be afraid of choosing the wrong track and miss a talk :smirk:
 
@@ -104,7 +104,7 @@ Beside quite useful mini examples like auto-logging of object keys when accessin
 
 ### Parties :tada:
 
-A very special highlight was the party after the first day of the conference. Mainly because [{ Live : JS }](http://livejs.network/) had a truly amazing live gig. They performed music running on two Gameboy Advance and did bedazzling live visuals exclusively based on web technologies. Mad props to Ruth, Tim, Sam und Martin. These folks truly rocked the party.
+A very special highlight was the party after the first day of the conference. Mainly because [{Live : JS}](http://livejs.network/) had a truly amazing live gig. They performed music running on two Gameboy Advance and did bedazzling live visuals exclusively based on web technologies. Mad props to Ruth, Tim, Sam und Martin. These folks truly rocked the party.
 
 ## Bottom line
 
