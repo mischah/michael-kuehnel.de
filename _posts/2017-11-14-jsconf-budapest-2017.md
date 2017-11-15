@@ -37,7 +37,17 @@ The 2017 edition was the first JSConf Budapest for me after visiting JSConf EU i
 
 ## The location
 
-The event location was a historic cinema in the heart of the jewish quarter in the center of the city. A monumental location. The only thing I kinda missed were more places to chill. 
+<div class="float-container">
+    <figure class="float-left">
+      <img src="/assets/img/jsconfbp2017/location.jpg" alt="">
+      <figcaption>Picture by <a href="https://twitter.com/stefanjudis‬ ">Stefan Judis</a></figcaption>
+    </figure>
+    <div>
+        <p>
+          The event location was a historic cinema in the heart of the jewish quarter in the center of the city. A monumental location. The only thing I kinda missed were more places to chill. 
+        </p>
+    </div>
+</div>
 
 ## The schedule
 
@@ -54,7 +64,7 @@ I’d like summarize and highlight the following three talks.
 The topic of this [talk](https://bodil.lol/join-us-now/#0) was Open Source Software. From their beginnings, through licenses to todays relevance. Whether you interpret Open Source and the Free Software movement as socialism, pragmatism or art: The idea itself and spreading is as important as it ever was. Then it has the ability to empower us. Making source code available to the general public doesn’t only mean that we can take influence, can fix and can improve software. It builds communities of developers and user which weren’t imaginable. First and foremost it enables us to learn.
 
 <figure>
-  <img src="/assets/img/jsconfbp2017/oss.jpg">
+  <img src="/assets/img/jsconfbp2017/oss.jpg" alt="">
   <figcaption>Picture by <a href="https://twitter.com/mkuehnel">myself</a></figcaption>
 </figure>
 
@@ -74,7 +84,7 @@ Plus it showed concrete opportunities for action to fix these problems:
 * start the conversation
 
 <figure>
-  <img src="/assets/img/jsconfbp2017/reviews.jpg">
+  <img src="/assets/img/jsconfbp2017/reviews.jpg" alt="">
   <figcaption>Picture by <a href="https://twitter.com/mkuehnel">myself</a></figcaption>
 </figure>
 
@@ -103,7 +113,7 @@ An excellent [talk](https://speakerdeck.com/nybblr/async-patterns-to-scale-your-
 Jonathan came with recipes based on »Async IIFEs«, »Web Worker clusters« und »SharedArrayBuffers« to solve the concurrency challenges elegantly.
 
 <figure>
-  <img src="/assets/img/jsconfbp2017/concurrency.jpg">
+  <img src="/assets/img/jsconfbp2017/concurrency.jpg" alt="">
   <figcaption>Picture by <a href="https://twitter.com/mkuehnel">myself</a></figcaption>
 </figure>
 
