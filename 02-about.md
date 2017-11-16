@@ -17,7 +17,7 @@ menu: true
           amazing people building software based on web technologies. Besides
           coding I enjoy hanging around with my family, friends and animals.
           Not to forget that I’m organizing the »<a href="http://webmontag-kassel.de/">Web Montag Kassel</a>« together with <a href="https://twitter.com/nuzy_">@nuzy_</a> and
-          <a href="https://twitter.com/n0dashes">@n0dashes</a>.
+          <a href="https://twitter.com/rvrng">@rvrng</a>.
         </p>
         
     </div>
@@ -31,6 +31,7 @@ You can catch me, my sourcecode, my gists, my presentations, my bookmarks, my ar
 [Twitter](http://twitter.com/mkuehnel),
 [GitHub](https://github.com/mischah),
 [Flickr](http://flickr.com/photos/mischah/),
+[slides](https://slides.com/mkuehnel),
 [slideshare](http://www.slideshare.net/mischah),
 [Delicious](http://delicious.com/mischahr),
 [GitHub Gists](https://gist.github.com/mischah),
