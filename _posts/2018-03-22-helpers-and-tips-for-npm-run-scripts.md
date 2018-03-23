@@ -221,7 +221,7 @@ Using [npm-run-all](https://github.com/mysticatea/npm-run-all) offers the follow
 
 ## Using npx with locally installed dependencies instead of npm run scripts
 
-`npm` [comes bundled](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) with `npx` (since v5.2.0) — a tool to execute package binaries. Which is great to use packages globally without the need to install them globally.
+npm [comes bundled](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) with `npx` (since v5.2.0) — a tool to execute package binaries. Which is great to use packages globally without the need to install them globally.
 
 But it’s also pretty useful for locally installed dependencies in your project.
 
