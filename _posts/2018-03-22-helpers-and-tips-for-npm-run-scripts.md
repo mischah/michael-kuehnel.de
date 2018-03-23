@@ -217,6 +217,12 @@ Using [npm-run-all](https://github.com/mysticatea/npm-run-all) offers the follow
 }
 ```
 
+### Remembering npm run scripts
+
+Depending on the amount of tasks it might be hard to remember each and every task name. A faster alternative to us `npm run` to list all available tasks is to use an awesome little helper tool called `ntl` to show an interactive list of task to choose from 💥
+
+<img src="/assets/img/ntl-screenshot.png" alt="">
+
 ----
 
 ## Beyond npm scripts
