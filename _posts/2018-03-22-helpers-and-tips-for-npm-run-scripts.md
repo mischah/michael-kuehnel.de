@@ -219,7 +219,47 @@ Using [npm-run-all](https://github.com/mysticatea/npm-run-all) offers the follow
 
 ----
 
-## Using npx with locally installed dependencies instead of npm run scripts
+## Beyond npm scripts
+
+### Wrap your npm scripts setup to improve maintainibility and user experience
+
+There are two things which might be a downside when your setup becomes more and more complex:
+
+- Not beeing able to describe your tasks to your users.
+  - You might want to upvote [this issue](https://github.com/npm/npm/issues/18515) on the npm issues tracker to fix this.
+- The lack of using comments in package.json.
+
+As workaround for both you can use a tool like [nps](https://github.com/kentcdodds/nps) which claims to have »all the benefits of npm scripts without the cost of a bloated package.json and limits of json«.
+
+#### The solution of nps
+
+It allows you to move your scripts to a `package-scripts.js` file. Because this file is a JavaScript file, you can do a lot more with your project scripts.
+
+```javascript
+const npsUtils = require('nps-utils') // not required, but handy!
+
+module.exports = {
+  scripts: {
+    default: 'node index.js',
+    lint: 'eslint .',
+    test: {
+      default: 'jest',
+      watch: {
+        script: 'jest --watch',
+        description: 'run in the amazingly intelligent Jest watch mode'
+      }
+    },
+    build: {
+      default: 'webpack',
+      prod: 'webpack -p',
+    },
+    // learn more about npsUtils here: https://npm.im/nps-utils
+    validate: npsUtils.concurrent.nps('lint', 'test', 'build'),
+  },
+}
+```
+
+### Using npx with locally installed dependencies instead of npm run scripts
 
 npm [comes bundled](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) with `npx` (since v5.2.0) — a tool to execute package binaries. Which is great to use packages globally without the need to install them globally.
 
@@ -244,3 +284,7 @@ npx xo --fix
 ```
 
 This executes the locally installed version of XO from `node_modules/.bin`.
+
+----
+
+That’s it for now. Please share other features, tips and tools I might have missed.
