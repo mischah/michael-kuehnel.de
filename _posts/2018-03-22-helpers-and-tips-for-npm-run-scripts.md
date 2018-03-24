@@ -6,7 +6,7 @@ date:   2018-03-22 23:30:00
 category: Tooling
 tags: "Tooling, npm scripts, helpers, cli, tips, watch"
 image: ""
-excerpt: "The purpose of this blog post is not to introduce using npm as a build tool. There are lots of good articles about the »what« and »why«. I like to present some hidden gems to improve your setup instead."
+excerpt: "The purpose of this blog post is not to introduce using npm as a build tool. There are lots of good articles about the »what« and »why«. I like to present some hidden gems to potentially improve your setup instead."
 disqusIdentifier: 2018-03-22-helpers-and-tips-for-npm-run-scripts
 ---
 
@@ -58,7 +58,7 @@ __Note: *prepublishOnly* is available since npm v4.0.0. See [npm docs](https://d
 
 ### »npm start« and »npm test«
 
-`npm start` are also lifecycle scripts but aren’t executed automatically. 
+These are also lifecycle scripts (but aren’t executed automatically). 
 
 ```json
 {
@@ -176,7 +176,7 @@ So `npm run lint:watch` will watch for changes in the file system and will autom
 }
 ```
 
-This is especially useful for watching files while developing in conjunction with `onerror`.
+This is especially useful for watching files while developing in conjunction with `onchange`.
 
 ```json
 {
@@ -192,7 +192,7 @@ This is especially useful for watching files while developing in conjunction wit
 
 Using [npm-run-all](https://github.com/mysticatea/npm-run-all) offers the following advantages:
 
-- can increase readability of the scripts section in your package.json via glob-like patterns
+- can increase readability of the scripts section in your package.json via glob-like patterns  
   Before:
 
   ```json
@@ -204,7 +204,7 @@ Using [npm-run-all](https://github.com/mysticatea/npm-run-all) offers the follow
   ```json
   npm-run-all clean build:*
   ```
-- compared to using `npm run foo & npm run bar`
+- compared to using `npm run foo & npm run bar` 
   - running scripts in parallel works on Windows
   - multiple scripts which are listening to file changes can run parallel 
 
@@ -219,7 +219,7 @@ Using [npm-run-all](https://github.com/mysticatea/npm-run-all) offers the follow
 
 ### Remembering npm run scripts
 
-Depending on the amount of tasks it might be hard to remember each and every task name. A faster alternative to us `npm run` to list all available tasks is to use an awesome little helper tool called [ntl](https://github.com/ruyadorno/ntl) to show an interactive list of task to choose from 💥
+Depending on the amount of tasks it might be hard to remember each and every task name. A faster alternative to use `npm run` to list all available tasks is to use an awesome little helper tool called [ntl](https://github.com/ruyadorno/ntl) to show an interactive list of task to choose from 💥
 
 <img src="/assets/img/ntl-screenshot.png" alt="">
 
@@ -271,7 +271,7 @@ npm [comes bundled](https://medium.com/@maybekatz/introducing-npx-an-npm-package
 
 But it’s also pretty useful for locally installed dependencies in your project.
 
-Each command called with `npx` is executed either from the local `node_modules/.bin` directory, or from a central cache, installing any packages needed in order to run a command.
+*Each command called with `npx` is executed either from the local `node_modules/.bin` directory, or from a central cache, installing any packages needed in order to run a command.*
  
 ```json
 {
