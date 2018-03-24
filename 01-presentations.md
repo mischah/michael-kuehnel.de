@@ -8,11 +8,43 @@ excerpt: "Slides of Presentations i’ve given. Mostly from the Webmontag Kassel
 tags: "Slides, presentation, presentations, DalekJS, Webmontag Kassel, JSLint, JSHint, ESLint, jQuery, .data(), HTML5, data, Coding Guidelines, Grunt, Bower, Yeoman, JS tooling, JavaScript Tooling, Package Management, npm"
 ---
 
+## How to start contributing to Open Source
+
+This talk gives you answers about what you need to know when like to start to contribute to Open Source Software. 
+
+[Slides](https://slides.com/mkuehnel/contributing) from the 21th Webmonday in Kassel (October 2017)
+
+---
+
+## What goes around come around – How to get involved in Open Source
+
+This talk explains why the open source world needs you and shows different ways how everyone can support Open Source Software.
+
+[Slides](https://slides.com/mkuehnel/oss) from the 17th Webmonday in Kassel (January 2017)
+
+---
+
+## ES6 / ES2015 and beyond
+
+This talk is about ECMAScript in general, the most important ES6 Features and explains how can we use them today.
+
+[Slides](https://slides.com/mkuehnel/es6) from the an internal company tech talk (April 2016)
+
+---
+
+## Data Mocking – Ways to create a fake backend
+
+This (german) talk is about different ways to fake an API for development purposes. It’s based on the blog post [Data mocking – Ways to fake a backend (API)](/api/2016/11/04/data-mocking-ways-to-fake-a-backend-api.html).
+
+[Slides](https://slides.com/mkuehnel/data-mocking) from the 13th Webmonday in Kassel (March 2016)
+
+---
+
 ## Package Management für das Frontend
 
 Präsentation über Package Management mit Bower und npm. Gemeinsamkeiten, Unterschiede, Einsatzzweck und die potentielle Zukunft des Package Management für das Frontend.
 
-[Slides](packagemanagement-fuer-das-frontend) vom 8. Webmontag in Kassel Kassel (April 2015)
+[Slides](packagemanagement-fuer-das-frontend) vom 8. Webmontag in Kassel (April 2015)
 
 ---
 
