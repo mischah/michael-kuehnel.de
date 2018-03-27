@@ -6,7 +6,7 @@ date:   2018-03-22 23:30:00
 category: Tooling
 tags: "Tooling, npm scripts, helpers, cli, tips, watch"
 image: ""
-excerpt: "The purpose of this blog post is not to introduce using npm as a build tool. There are lots of good articles about the »what« and »why«. I like to present some hidden gems to potentially improve your setup instead."
+excerpt: "The purpose of this blog post is not to introduce using npm as a build tool. There are lots of good articles about the »where« and »why«. I would like to present some hidden gems to potentially improve your setup instead."
 disqusIdentifier: 2018-03-22-helpers-and-tips-for-npm-run-scripts
 ---
 
@@ -38,7 +38,7 @@ $ npm run lint
 
 ## Lifecycle scripts
 
-npm comes with predefined [lifecyle scripts](https://docs.npmjs.com/misc/scripts) which are excuted under specific conditions in case they are defined in your package.json.
+npm comes with predefined [lifecyle scripts](https://docs.npmjs.com/misc/scripts) which are excuted under specific conditions when they are defined in your package.json.
 
 ```json
 {
@@ -150,7 +150,7 @@ Using the --silent option reduces the output in the Terminal. See this [comparis
 
 ### Watch tasks 
 
-There are several packages which enable running scripts when files changed. In my opinion [onchange](https://github.com/Qard/onchange) offers the best combination of ease of use and flexibility. 
+There are several packages which enable running scripts when files changed. Personally, [onchange](https://github.com/Qard/onchange) offers the best combination of ease of use and flexibility. 
 
 ```json
 {
@@ -229,9 +229,9 @@ Depending on the amount of tasks it might be hard to remember each and every tas
 
 ### Wrap your npm scripts setup to improve maintainibility and user experience
 
-There are two things which might be a downside when your setup becomes more and more complex:
+There are two things which might have a downside when your setup becomes more and more complex:
 
-- Not beeing able to describe your tasks to your users.
+- Not being able to describe your tasks to your users.
   - You might want to upvote [this issue](https://github.com/npm/npm/issues/18515) on the npm issues tracker to fix this.
 - The lack of using comments in package.json.
 
@@ -267,7 +267,7 @@ module.exports = {
 
 ### Using npx with locally installed dependencies instead of npm run scripts
 
-npm [comes bundled](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) with `npx` (since v5.2.0) — a tool to execute package binaries. Which is great to use packages globally without the need to install them globally.
+npm [comes bundled](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) with `npx` (since v5.2.0) — a tool to execute package binaries which is great to use packages globally without the need to install them globally.
 
 But it’s also pretty useful for locally installed dependencies in your project.
 
