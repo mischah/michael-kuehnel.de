@@ -166,15 +166,10 @@ body {
 		> svg path { fill: #333333; }
 		&:hover > svg path { fill: #4183c4; }
 	}
-	.icon--flattr {
-		> svg path { fill: #90ba5d; }
-		&:hover > svg path { fill: #f29224; }
-	}
 	.icon--feed {
 		> svg path { fill: #f39c11; }
 		&:hover > svg path { fill: #f29224; }
 	}
-	.icon--flattr > svg,
 	.icon--feed > svg {
 		height: 22px;
 		width: 22px;

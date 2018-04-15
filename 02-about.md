@@ -41,5 +41,3 @@ You can catch me, my sourcecode, my gists, my presentations, my bookmarks, my ar
 [Xing](https://www.xing.com/profile/Michael_Kuehnel),
 [Instagram](http://instagram.com/mischah),
 [Webkrauts](http://www.webkrauts.de/autor/michael-kuehnel) … but please don’t try to stalk the hell out of me (•◡•)
-
-Feel free to use [Flattr](https://flattr.com/profile/mischah) to throw a few cents on me in case you enjoyed reading something here.
