@@ -7,7 +7,6 @@ category: conferences
 tags: "Conferences, Fronteers, JSconf EU, CSSconf EU"
 image: "/assets/img/confs-2014.jpg"
 excerpt: "I like to visit as much different conferences as possible. This Autumn I had the pleasure to visit three conferences for my first time. This Blogpost will not contain epic recaps of these. Instead I try to describe what they are about, recommend a few talks and maybe it could help you to decide whether JSconf, CSSconf and Fronteers are the Conferences of your choice (in case you haven’t been there)."
-disqusIdentifier: 2014-11-16-conference-roundup
 ---
 
 <div class="float-container">

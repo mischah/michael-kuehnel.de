@@ -6,7 +6,6 @@ date:   2016-11-27 16:45:00
 category: Documentation
 tags: "Documentation, Docs, API, JSDoc"
 excerpt: "tbd."
-disqusIdentifier: 2016-11-27-jsdoc-template-with-search-and-version-switcher
 ---
 
 # Content

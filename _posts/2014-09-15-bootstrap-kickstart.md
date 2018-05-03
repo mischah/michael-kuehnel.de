@@ -7,7 +7,6 @@ category: Bootstrap
 tags: "Bootstrap, Maintainability, Boilerplate, Skeleton, Scaffolding, Themes, Kickstart, Workflow"
 image: "/assets/img/bootstrap-kickstart-logo.png"
 excerpt: "I released our internal repository for creating Bootstrap Themes a few weeks ago on Github. So I guess it’s time to write a short summary what this little project is all about. Basically it’s about making the best out of Bootstrap when it comes to using, adapting and extending it. So, you got to continue reading if your are using Bootstrap."
-disqusIdentifier: 2014-09-07-bootstrap-kickstart
 ---
 
 <div class="float-container">

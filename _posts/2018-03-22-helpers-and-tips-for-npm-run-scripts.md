@@ -7,7 +7,6 @@ category: Tooling
 tags: "Tooling, npm scripts, helpers, cli, tips, watch"
 image: ""
 excerpt: "The purpose of this blog post is not to introduce using npm as a build tool. There are lots of good articles about the »where« and »why«. I would like to present some hidden gems to potentially improve your setup instead."
-disqusIdentifier: 2018-03-22-helpers-and-tips-for-npm-run-scripts
 ---
 
 {{page.excerpt}}
