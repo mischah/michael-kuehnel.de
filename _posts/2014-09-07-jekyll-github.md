@@ -7,7 +7,6 @@ category: jekyll
 tags: "Blogging, Jekyll, Flattr"
 image: "/assets/img/jekyll-logo.png"
 excerpt: "Part I of the »Jekyll Setup post« contains information about installing Jekyll, including Flattr, adding comments, tweaking the site navigation and improving syntax highlighting within your blog posts."
-disqusIdentifier: 2014-09-07-jekyll-setup-github
 ---
 
 <div class="float-container">

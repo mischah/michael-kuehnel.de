@@ -7,7 +7,6 @@ category: Docker
 tags: "Docker, Cheat Sheet, CLI, Terminal, Command line interface"
 image: "/assets/img/docker-logo.svg"
 excerpt: "I’m new to Docker. So this cheatsheet is primarily for me to help to remember commands for handling containers as well as images."
-disqusIdentifier: 2016-11-19-docker-cli-cheatsheet
 ---
 
 <div class="float-container">

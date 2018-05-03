@@ -24,14 +24,6 @@ Um das leichte teilen von Inhalten zu ermöglichen hat diese Webseite auch den W
 Von dem Inhalt der übermittelten Daten und deren Nutzung durch Twitter erhalten wir keine Kenntnis. Konsultieren Sie daher für weitere Informationen die Datenschutzerklärung von Twitter: <http://twitter.com/privacy>
 Twitter bietet Ihnen unter nachfolgendem Link die Möglichkeit, Ihre Datenschutzeinstellungen selbst festzulegen: <http://twitter.com/account/settings>.
 
-## Datenschutzerklärung für die Nutzung von Disqus
-
-Wir nutzen zudem das Disqus-Kommentarsystem, das von der Firma Disqus, Inc., 301 Howard St, Floor 3 San Francisco, California- 94105, USA, bereitgestellt wird. Die Datenschutzinformationen von Disqus finden Sie [hier](http://help.disqus.com/customer/portal/articles/466259-privacy-policy). Disqus erlaubt die Anmeldung entweder über ein eigenes Disqus-Nutzer-Konto (»Account«) oder über bestehende Nutzer-Konten bei Facebook, Twitter und Google Plus. Sofern Sie sich mit Ihren Accounts der Social-Media-Angebote bei der Disqus-Funktion auf unseren Webseiten anmelden, werden auch diese Diensteanbieter Informationen zu Ihrer Nutzung der Disqus-Funktionen erheben und verarbeiten. Bitte nehmen Sie dazu die Datenschutzinformationen der jeweiligen Anbieter zur Kenntnis. Auch das Kommentieren als Gast ist möglich, allerdings stehen dann einige Funktionen nicht zur Verfügung.
-
-Disqus ist eine international verbreitete Plattform. Mit einer Anmeldung kann man auf jeder Webseite kommentieren, die Disqus einsetzt.
-
-Disqus übermittelt die E-Mail-Adresse der Benutzer und die IP-Adresse, die während der Eingabe eines Kommentars verwendet wurde, an uns. Wir benötigen diese Information ausschließlich für den Zweck der Kontaktaufnahme im Zusammenhang mit Ihrer Nutzung von Disqus, beispielsweise wenn wir Rückfragen zu Ihrem Nutzerkommentar haben. Eine unerlaubte Weitergabe an Dritte erfolgt selbstverständlich nicht.
-
 ## Und zum Abschluss noch was zum Thema Cookies
 
 Cookies sind kleine Dateien, die es ermöglichen, auf dem Zugriffsgerät der Nutzer (PC, Smartphone o.ä.) spezifische, auf das Gerät bezogene Informationen zu speichern. Sie dienen zum einem der Benutzerfreundlichkeit von Webseiten und damit den Nutzern (z.B. Speicherung von Logindaten). Zum anderen dienen sie, um die statistische Daten der Webseitennutzung zu erfassen und sie zwecks Verbesserung des Angebotes analysieren zu können. Die Nutzer können auf den Einsatz der Cookies Einfluss nehmen. Die meisten Browser verfügen eine Option mit der das Speichern von Cookies eingeschränkt oder komplett verhindert wird. Allerdings wird darauf hingewiesen, dass die Nutzung und insbesondere der Nutzungskomfort ohne Cookies eingeschränkt werden. Sie können viele Online-Anzeigen-Cookies von Unternehmen über die US-amerikanische Seite <http://www.aboutads.info/choices/> oder die EU-Seite <http://www.youronlinechoices.com/uk/your-ad-choices/> verwalten.

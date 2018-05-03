@@ -6,7 +6,6 @@ date:   2014-09-01 21:53:08
 category: blogging
 tags: "Blogging, Jekyll"
 excerpt: I’m starting blogging for the very first time on my own blog. This is something I had in my mind for ages. But I never managed to take the time setting up a blog (besides the legendary but long gone whuddupbro.com … but that’s a whole different story).
-disqusIdentifier: 2014-09-01welcome-first-post
 ---
 
 **It’s happening!**

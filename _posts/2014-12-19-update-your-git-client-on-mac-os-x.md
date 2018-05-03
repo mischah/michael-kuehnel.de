@@ -7,7 +7,6 @@ category: Git
 tags: "Quick Tip, Git, Mac OS X, Security"
 image: "/assets/img/git-logo.png"
 excerpt: "I like to assist you just in case you wonder how to react on yesterdays announcement of that critical Git security vulnerability. As said within a post on Githubs Blog it’s strongly recommended to update your Git clients as soon as possible. Here we go with a short instruction how to update in case you are using OS X."
-disqusIdentifier: 2014-12-19-update-your-git-client-on-mac-os-x
 ---
 
 <div class="float-container">

@@ -7,7 +7,6 @@ category: JavaScript
 tags: "JavaScript, Toolchain, Grunt, Bower, Yeoman, Minifying, Concatenating, Linting, Documentation, Code Complexity Measuring, Dependency Management, Unit Testing, Scaffolding"
 image: "/assets/img/js-tooling.png"
 excerpt: "I had an internal »Tec Talk« about a JavaScript toolchain including Grunt, Bower, Yeoman. From minifying and concatenating, over linting, documentation, code complexity measuring, dependency management, unit testing to easy scaffolding. I like to share the content and the demo files over here and hope you’ll enjoy it."
-disqusIdentifier: 2014-12-10-javaScript-tooling-with-grunt-bower-yeoman
 ---
 
 <div class="float-container">

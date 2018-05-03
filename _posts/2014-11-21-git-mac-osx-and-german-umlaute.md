@@ -7,7 +7,6 @@ category: Git
 tags: "Quick Tip, Git, Mac OS X, Umlauts, Umlaute, UTF-8, Unicode"
 image: "/assets/img/git-logo.png"
 excerpt: "Sure, using umlauts or other special characters within filenames is far from being called a best practice and should be forbidden by law (or at least by convention) for source code repositories. But sometimes you just have to deal with given files and might wonder why you find untracked files in a freshly cloned Git repository. If you’re on Mac OS X there is a great chance that this is caused by Umlauts or other Unicode characters."
-disqusIdentifier: 2014-11-20-git-mac-osx-and-german-umlaute
 ---
 
 ## Update from September 22, 2015

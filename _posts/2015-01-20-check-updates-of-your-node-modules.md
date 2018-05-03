@@ -7,7 +7,6 @@ category: npm
 tags: "Quick Tip, npm, Node.js, update"
 image: "/assets/img/npm-logo.svg"
 excerpt: "It might be a »no-brainer« in case you are working within the Node.js environment for a while. But I used to ask myself how to figure out if there are updates to my dependencies / devDependencies which are beyond the patch-level updates which are »automatically« installed via the definition within my `package.json`. Because I don’t like to check possible updates separately for every module I’m using in my project."
-disqusIdentifier: 2015-01-20-check-updates-of-your-node-modules
 ---
 
 <div class="float-container">

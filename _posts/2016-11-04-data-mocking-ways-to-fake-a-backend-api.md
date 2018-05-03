@@ -6,7 +6,6 @@ date:   2016-11-04 00:10:00
 category: API
 tags: "Data, Mocking, Rest, JSON, API, Frontend, Backend, Fake, Testing"
 excerpt: "What are the advantages of working with fake data in projects with a clean separation between the frontend and the backend?  How can we mock our backend with minimum effort? This blogpost will answer this questions and explains different methods of providing data via a dummy backend."
-disqusIdentifier: 2016-06-03-data-mocking-ways-to-fake-a-backend-api
 ---
 
 *Eine deutsche Version des Artikels findet ihr im [Micromata Blog](https://labs.micromata.de/blog/fake-backend.html).*

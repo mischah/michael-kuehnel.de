@@ -6,7 +6,6 @@ date:   2014-11-10 23:48:00
 category: Eclipse
 tags: "Quick Tip, Eclipse, Sass, scss, Aptana Studio"
 excerpt: "Just in case you’re working with Sass as CSS preprocessor and are forced to use Eclipse for a certain project (huhu, Liferay theming). In this case you might wonder why the hell there is no Sass editor plugin within the marketplace to enable at least syntax highlighting for *.scss files. I guess you would be like »Whatever, just hit google (or DuckDuckGo) and find something suitable in a matter of seconds.«"
-disqusIdentifier: 2014-11-10-eclipse-sass
 ---
 
 Just in case you’re working with Sass as CSS preprocessor and are forced to use Eclipse for a certain project (huhu, Liferay theming :grin:). In this case you might wonder why the hell there is no Sass editor plugin within the marketplace to enable at least syntax highlighting for `*.scss` files. I guess you would be like »Whatever, just hit google (DuckDuckGo) and find something suitable in a matter of seconds.«

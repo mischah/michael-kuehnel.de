@@ -7,7 +7,6 @@ category: Node.js
 tags: "Quick Tip, Node.js, Versions, homebrew, npm"
 image: "/assets/img/nodejs-logo.svg"
 excerpt: "Sure you can just use homebrew to update your Node.js installation when there are new releases. It’s in fact very handy to do so. But beside the quirk when it comes to updating npm there is a method which makes switching Node.js version even easier. This became more important since the stable release of Node 4.0 which I like to use. But I have to be able to use a different Node version just in case thinks break with Node 4.0."
-disqusIdentifier: 2015-09-08-using-vm-to-switch-node-versions
 --- 
 
 ## Update from June 2, 2016

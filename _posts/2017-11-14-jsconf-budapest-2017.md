@@ -7,7 +7,6 @@ category: conferences
 tags: "Conferences, JSconf Budapest"
 image: "/assets/img/jsconfbp2017/family-photo.jpg"
 excerpt: "It was my first time attending JSConf Budapest. In this recap I’ll summarize and highlight a few talks and try to convey the overall experience. TL;DR: It was a blast. Thanks to everyone involved :sparkling_heart:"
-disqusIdentifier: 2017-11-14-jsconf-budapest-2017
 ---
 
 <div class="float-container">
