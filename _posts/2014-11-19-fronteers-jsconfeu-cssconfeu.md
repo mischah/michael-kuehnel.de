@@ -30,19 +30,19 @@ I like the fact, that almost each and every talk was technical or at least had a
 My favorite talk which really blew my mind was the one about **»CSS Performance Tooling« by Addy Osmani** ([@addyosmani](https://twitter.com/addyosmani)) which shows tools to handle the next level of performance optimization:
 
 <div class="embed-wrapper">
-  <iframe width="560" height="315" src="//www.youtube.com/embed/FEs2jgZBaQA?list=PL37ZVnwpeshHAnqFlTxhd0MIXWjLBbM3R&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FEs2jgZBaQA?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
 But the other performance related talk named **»CSS and the critical path« from Patrick Hamman** ([@patrickhamann](https://twitter.com/patrickhamann)) was also excellent and explained the »problem« with the »critical path« aka »above the fold« CSS in great detail: 
 
 <div class="embed-wrapper">
-  <iframe width="560" height="315" src="//www.youtube.com/embed/_0Fk85to6hA?list=UUzoVCacndDCfGDf41P-z0iA&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_0Fk85to6hA?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
 The third talk I like emphasize is the one about **»Styling and Animating Scalable Vector Graphics with CSS« from Sara Soueidan** ([@sarasoueidan](https://twitter.com/sarasoueidan)). It contains info about with the 6 (!) different SVG embedding techniques and the different approaches to style and animate SVGs among other useful things:
 
 <div class="embed-wrapper">
-  <iframe width="560" height="315" src="//www.youtube.com/embed/lf7L8X6ZBu8?list=UUzoVCacndDCfGDf41P-z0iA&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lf7L8X6ZBu8?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
 ### Bottom Line
