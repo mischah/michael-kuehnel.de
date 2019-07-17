@@ -6,7 +6,7 @@ date: 2019-07-16 23:34:16
 category: IoT
 tags: "IoT, Internet of Things, Espruino, ESP8266, ESP32, D1 Mini, NodeMCU, JavaScript, Microcontrollers, macOS"
 image: ""
-excerpt: "Espruino is firmware with a integrated JavaScript interpreter for microcontrollers coming with its own IDE. So it’s possible to run JavaScript natively on the most affordable microcontrollers like the ESP8266. This Guide helps you to set things up to explore the possibilities of the Internet of Things using the language of the web."
+excerpt: "Espruino is a firmware with an integrated JavaScript interpreter for microcontrollers coming with it’s own IDE. So it’s possible to run JavaScript natively on the most affordable microcontrollers like the ESP8266. This Guide helps you to set things up to explore the possibilities of the Internet of Things using the language of the web."
 ---
 
 {{page.excerpt}}
