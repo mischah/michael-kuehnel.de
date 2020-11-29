@@ -296,6 +296,7 @@ The following tools could help you to generate JSON files for fake backend:
 
 + <https://github.com/danibram/mocker-data-generator>
 + <http://www.json-generator.com>
++ <https://extendsclass.com/json-generator.html>
 
 ### Dummy data generators
 
