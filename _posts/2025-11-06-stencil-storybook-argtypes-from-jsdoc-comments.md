@@ -5,7 +5,7 @@ title: "Stencil and Storybook – How to generate argTypes from JSDoc comments"
 date: 2025-11-06 15:00:00
 category: Web Components
 tags: "Stencil, Storybook, Web Components, Custom Elements Manifest, JSDoc, argTypes, TypeScript"
-image: ""
+image: "/assets/img/storybook-props-table.png"
 excerpt: "When using Stencil with Storybook, you'll quickly notice that Controls don't work out of the box. This guide shows you how to automatically generate proper argTypes from your JSDoc comments using the Custom Elements Manifest."
 ---
 
