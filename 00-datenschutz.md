@@ -10,7 +10,7 @@ Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der V
 ## Verantwortlicher
 
 Michael Kühnel  
-Wilhelmshöher Alle 170  
+Berlepschstraße 4  
 34119 Kassel  
 Deutschland  
 E-Mailadresse: [mail@michael-kuehnel.de](mail@michael-kuehnel.de)

@@ -10,18 +10,18 @@ permalink: /impressum.html
 ## Angaben gemäß § 5 TMG
 
 Michael Kühnel  
-Wilhelmshöher Allee 170  
+Berlepschstraße 4  
 34119 Kassel
 
 ## Kontakt
 
-Telefon:    +49 561 8164938  
+Telefon:    +49 151 55169219  
 E-Mail: <mail@michael-kuehnel.de>
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
 Michael Kühnel  
-Wilhelmshöher Allee 170  
+Berlepschstraße 4  
 34119 Kassel
 
 ## Quellenangaben für die verwendeten Bilder und Grafiken:
