@@ -1,34 +1,34 @@
 ---
 layout: post
-lang: en_GB
+lang: en_US
 title: "Introducing »Relaxed« 1.0.0 for Zed"
 date: 2026-10-22
 category: Tooling
 tags: "Zed, Theme, Relaxed, Editor"
 image: "/assets/img/zed-relaxed-theme.png"
-excerpt: "The Relaxed theme is now available for Zed. Version 1.0.0 brings the calm colors you might have enjoyed in your terminal and VSCode to the new and blaziingly fast Rust-powered editor."
+excerpt: "The Relaxed theme is now available for Zed. Version 1.0.0 brings the calm colors you might have enjoyed in your terminal and VS Code to the blazingly fast, Rust-powered editor."
 ---
 
 {{page.excerpt}}
 
 <figure>
-  <img src="/assets/img/zed-relaxed-theme.png" alt="Screenshot of the Relaxed Theme in Zed showing a demo tsx file.">
+  <img src="/assets/img/zed-relaxed-theme.png" alt="Screenshot of the Relaxed Theme in Zed showing a TSX demo file.">
   <figcaption>Zed now feels like home 🕶️</figcaption>
 </figure>
 
 ## Backstory
 
-Back in 2018 I released the »Relaxed Theme«, a color scheme I had fine-tuned for my terminal over quite a while. A [Visual Studio Code version](https://marketplace.visualstudio.com/items?itemName=mischah.relaxed-theme) followed shortly after and was used by myself and many others for almost a decade. 
+Back in 2018 I released the »Relaxed Theme«, a color scheme I had fine-tuned for my terminal over quite a while. A [Visual Studio Code version](https://marketplace.visualstudio.com/items?itemName=mischah.relaxed-theme) followed shortly after and has been used by me and many others for almost a decade.
 
 Today I'm happy to announce that »Relaxed Theme« has arrived in [Zed](https://zed.dev) with version `1.0.0` 🎉
 
 ## How I ended up here
 
-I stumbled upon Zed a while ago and got curious. I played around a bit an began configuring it to my needs (pretty much VSCode based style). After basic settings,  tosssing around side bars from one side to the other and installing just one additional extension I was quite taken with it.
+I stumbled upon Zed a while ago and got curious. I played around a bit and began configuring it to my needs (pretty much in a VS Code style). After some basic settings, tossing panels from one side to the other and installing just one additional extension, I was quite taken with it.
 
-After scrolling through `settings.json` and some addional minor tweaks here and there and using Zed as my primary work tool I became a fan.
+After scrolling through `settings.json`, some additional minor tweaks here and there and using Zed as my primary work tool, I became a fan.
 
-The baked in »One Dark« theme is more than okay-ish. But of course I digged through third party themes I discovered that [Stefan Cosma](https://github.com/stefanbc) had already ported »Relaxed« to Zed. What a pleasant surprise.
+The built-in »One Dark« theme is more than okay. But of course I dug through third-party themes and discovered that [Stefan Cosma](https://github.com/stefanbc) had already ported »Relaxed« to Zed. What a pleasant surprise.
 
 So I invited Stefan to the [Relaxed-Theme](https://github.com/Relaxed-Theme) organization on GitHub, where the port now lives next to the terminal and VS Code versions, and started polishing. Now I'm really happy to use Zed exactly the way I want it to feel.
 
