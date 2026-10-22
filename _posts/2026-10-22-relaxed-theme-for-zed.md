@@ -20,7 +20,7 @@ excerpt: "The Relaxed theme is now available for Zed. Version 1.0.0 brings the c
 
 Back in 2018 I released the »Relaxed Theme«, a color scheme I had fine-tuned for my terminal over quite a while. A [Visual Studio Code version](https://marketplace.visualstudio.com/items?itemName=mischah.relaxed-theme) followed shortly after and has been used by me and many others for almost a decade.
 
-Today I'm happy to announce that »Relaxed Theme« has arrived in [Zed](https://zed.dev) with version `1.0.0` 🎉
+Today I'm happy to announce that »Relaxed Theme« has shipped as [version `1.0.0`](https://zed.dev/extensions/relaxed-theme) for [Zed](https://zed.dev) 🎉
 
 ## How I ended up here
 
