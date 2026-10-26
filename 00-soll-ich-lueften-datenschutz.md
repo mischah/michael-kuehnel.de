@@ -65,9 +65,9 @@ Nur wenn du „Wetter am Standort verwenden“ wählst und iOS den Standortzugri
 
 ## Empfänger und Übermittlung in die USA
 
-- **Cloudflare, Inc.**, 101 Townsend St., San Francisco, CA 94107, USA – Betrieb des Proxys als Auftragsverarbeiter (Art. 28 DSGVO). [Datenschutzerklärung von Cloudflare](https://www.cloudflare.com/privacypolicy/)
-- **Anthropic, PBC**, 548 Market St, PMB 90375, San Francisco, CA 94104, USA – Auslesen der Fotos als Auftragsverarbeiter. [Datenschutzerklärung von Anthropic](https://www.anthropic.com/legal/privacy)
-- **Apple Inc.**, One Apple Park Way, Cupertino, CA 95014, USA – App Attest und WeatherKit. [Datenschutzerklärung von Apple](https://www.apple.com/de/legal/privacy/)
+- **Cloudflare, Inc.**, 101 Townsend St., San Francisco, CA 94107, USA: Betrieb des Proxys als Auftragsverarbeiter (Art. 28 DSGVO). [Datenschutzerklärung von Cloudflare](https://www.cloudflare.com/privacypolicy/)
+- **Anthropic, PBC**, 548 Market St, PMB 90375, San Francisco, CA 94104, USA: Auslesen der Fotos als Auftragsverarbeiter. [Datenschutzerklärung von Anthropic](https://www.anthropic.com/legal/privacy)
+- **Apple Inc.**, One Apple Park Way, Cupertino, CA 95014, USA: App Attest und WeatherKit. [Datenschutzerklärung von Apple](https://www.apple.com/de/legal/privacy/)
 
 Dabei werden Daten in die USA übermittelt. Grundlage sind der Angemessenheitsbeschluss der EU-Kommission zum EU-US Data Privacy Framework, soweit der Empfänger danach zertifiziert ist, und andernfalls die Standardvertragsklauseln der EU-Kommission (Art. 46 Abs. 2 lit. c DSGVO), die Bestandteil der Vereinbarungen zur Auftragsverarbeitung sind.
 
