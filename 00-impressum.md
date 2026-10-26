@@ -7,7 +7,7 @@ permalink: /impressum.html
 
 
 
-## Angaben gemäß § 5 TMG
+## Angaben gemäß § 5 DDG
 
 Michael Kühnel  
 Berlepschstraße 4  
@@ -18,7 +18,7 @@ Berlepschstraße 4
 Telefon:    +49 151 55169219  
 E-Mail: <mail@michael-kuehnel.de>
 
-## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
+## Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
 
 Michael Kühnel  
 Berlepschstraße 4  
